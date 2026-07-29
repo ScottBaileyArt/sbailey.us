@@ -23,35 +23,56 @@ A few terms, since some of this is new:
 
 ## 1. Install Node.js (one time only)
 
-Download the **LTS** version (LTS = "Long Term Support," the stable one) from
-[nodejs.org](https://nodejs.org/) and run the installer, accepting the
-defaults.
+We'll install Node.js through a small helper called **nvm** ("Node Version
+Manager") rather than downloading it directly — it makes future updates
+painless. Open Terminal and paste these one at a time, pressing Enter after
+each:
 
-To check it worked, open Terminal and type:
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.6/install.sh | bash
+```
+
+```
+\. "$HOME/.nvm/nvm.sh"
+```
+
+```
+nvm install 24
+```
+
+That last one downloads and installs Node.js itself — give it a moment.
+
+To check it worked:
 
 ```
 node -v
 ```
 
-You should see a version number like `v22.x.x`. If you see "command not
-found," restart Terminal (or your computer) and try again.
+should print something like `v24.18.0`, and
+
+```
+npm -v
+```
+
+should print something like `11.16.0`. If you see "command not found"
+instead, quit Terminal fully and reopen it, then try the two `-v` commands
+again.
 
 ---
 
 ## 2. Get the project files
 
-In Terminal, navigate to wherever you'd like the project folder to live (for
-example, your Desktop), then run:
+In Terminal, run:
 
 ```
-cd Desktop
-git clone https://github.com/ScottBaileyArt/sbailey.us.git
+git clone git@github.com:ScottBaileyArt/sbailey.us.git
 cd sbailey.us
 ```
 
-The `cd` command means "go into this folder." After this, you'll have a
-`sbailey.us` folder on your Desktop, and your Terminal will be "inside" it —
-which matters, because every command below assumes you're there.
+This puts a `sbailey.us` folder in your home folder (the one with your
+username, where Terminal starts by default), and `cd` — meaning "go into this
+folder" — leaves your Terminal "inside" it, which matters because every
+command below assumes you're there.
 
 **Later on**, to get whatever's changed since last time, run this from inside
 the `sbailey.us` folder:
@@ -112,33 +133,18 @@ To stop the site, click back into Terminal and press **Ctrl+C**.
 Every time after the first, running the site is just:
 
 ```
-cd Desktop/sbailey.us
+cd ~/sbailey.us
 git pull
 npx @11ty/eleventy --serve
 ```
 
 ---
 
-## What you'll actually see right now
-
-Only the **bio page** exists so far — this is a first test to get the tools
-working and make sure the approach looks right before building out the rest.
-Visit `http://localhost:.../bio/`. The homepage and collection pages aren't
-built yet, so most links will 404 (a "page not found" message) — that's
-expected, not broken.
-
-I also left a running list of small oddities I found in the old page content
-(typos, a duplicated line, a couple of mismatched file names) in
-`CONTENT-NOTES.md`, in the same folder — worth a look whenever you have a
-minute, no rush.
-
----
-
 ## If something goes wrong
 
 - **"command not found: npm" or "npx"** — these come bundled with Node.js, so
-  this usually means Node didn't install correctly. Reinstall from
-  [nodejs.org](https://nodejs.org/).
+  this usually means step 1 didn't finish. Quit Terminal fully, reopen it, and
+  try the `nvm install 24` step again.
 - **Nothing happens when you visit the localhost address** — check the
   Terminal window for the exact address it printed; the port number
   (the part after the colon) can change.
