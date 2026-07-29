@@ -76,12 +76,6 @@ a.HREFnoDec:hover { COLOR: #171F29 ; text-decoration:underline;  }
 	padding-bottom: 15px;
 }
 .mainTableTD {
-	border-top-width: 1px;
-	border-right-width: 1px;
-	border-top-style: solid;
-	border-right-style: solid;
-	border-top-color: #ecf0f1;
-	border-right-color: #ecf0f1;
 }
 .displayTD {
 
