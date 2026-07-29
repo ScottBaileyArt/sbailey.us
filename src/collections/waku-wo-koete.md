@@ -1,0 +1,47 @@
+---
+title: 枠を超えて (waku wo koete)
+number: 8
+year: 2004
+legacy_prefix: c8
+works:
+- thumbnail: images/c3/D1Wshrapnel1s.jpg
+  thumb_width: 91
+  thumb_height: 90
+  title: Shrapnel
+  year: 2004
+  medium: Acrylic on PVC roofing material
+  dimensions: 5’ X 5’
+  image: images/c3/1Wshrapnel1s.jpg
+- thumbnail: images/c3/D2Wshrapnel4s.jpg
+  thumb_width: 89
+  thumb_height: 90
+  title: Shrapnel
+  year: 2004
+  medium: Acrylic on PVC roofing material
+  dimensions: 5’ X 5’
+  image: images/c3/2Wshrapnel4s.jpg
+- thumbnail: images/c3/D3Wshrapnel1.jpg
+  thumb_width: 90
+  thumb_height: 90
+  title: Shrapnel
+  year: 2004
+  medium: Acrylic on PVC roofing material
+  dimensions: 5’ X 5’
+  image: images/c3/3Wshrapnel1.jpg
+- thumbnail: images/c3/D4WShockandawe.jpg
+  thumb_width: 97
+  thumb_height: 90
+  title: Shock and Awe
+  year: 2004
+  medium: Acrylic on PVC
+  dimensions: 30” X 30”
+  image: images/c3/4WShockandawe.jpg
+- thumbnail: images/c3/D5WMekong.jpg
+  thumb_width: 99
+  thumb_height: 90
+  title: Mekong
+  year: 2004
+  medium: Acrylic on PVC
+  dimensions: 30” X 30”
+  image: images/c3/5WMekong.jpg
+---

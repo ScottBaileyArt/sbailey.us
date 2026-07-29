@@ -52,24 +52,15 @@ body, td, th {
         <td valign="bottom" bgcolor="#C9D8DD" class="whitetext">JAPAN</td>
         <td width="84" valign="bottom" bgcolor="#C9D8DD"><span class="whitetext">ITALY</span></td>
       </tr>
+      {# Node markers and labels are generated from the collection data files,
+         newest first. Adding a collection adds it to the timeline automatically
+         rather than needing every page edited by hand. Column widths are the
+         hand-tuned originals; the timeline is rebuilt in the responsive pass. #}
+      {%- set navWidths = [72, 72, 72, 80, 96, 82, 82, 85, 79, 72, 86, 78, 77, 82, 82, 80, 82] %}
       <tr>
-        <td width="75" bgcolor="#EBF0F1">&nbsp;</td>
-        <td width="75" bgcolor="#EBF0F1"><a href="/c14/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0" align="middle"></a></td>
-        <td width="73" bgcolor="#EBF0F1"><a href="/c16/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0" align="middle"></a></td>
-        <td width="80" bgcolor="#EBF0F1"><a href="/c15/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0" align="middle"></a></td>
-        <td width="92" bgcolor="#EBF0F1"><a href="/c13/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0" align="middle"></a></td>
-        <td width="84" bgcolor="#EBF0F1"><a href="/c12/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0" align="middle"></a></td>
-        <td width="90" valign="bottom" bgcolor="#EBF0F1"><a href="/c11/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0"></a></td>
-        <td width="78" valign="bottom" bgcolor="#EBF0F1"><a href="/c10/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0"></a></td>
-        <td width="79" valign="bottom" bgcolor="#EBF0F1"><a href="/c9/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0"></a></td>
-        <td valign="bottom" bgcolor="#EBF0F1"><a href="/c8/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0"></a></td>
-        <td width="78" valign="bottom" bgcolor="#EBF0F1"><a href="/c7/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0"></a></td>
-        <td width="77" valign="bottom" bgcolor="#EBF0F1"><a href="/c6/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0"></a></td>
-        <td width="77" valign="bottom" bgcolor="#EBF0F1"><a href="/c5/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0"></a></td>
-        <td width="82" valign="bottom" bgcolor="#EBF0F1"><a href="/c4/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0"></a></td>
-        <td width="86" valign="bottom" bgcolor="#EBF0F1"><a href="/c3/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0"></a></td>
-        <td width="72" valign="bottom" bgcolor="#EBF0F1"><a href="/c2/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0"></a></td>
-        <td width="82" valign="bottom" bgcolor="#EBF0F1"><a href="/c1/"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0"></a></td>
+        {%- for item in collections.timelineCollections %}
+        <td width="{{ navWidths[loop.index0] }}" valign="bottom" bgcolor="#EBF0F1"><a href="{{ item.url }}"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0" align="middle"></a></td>
+        {%- endfor %}
         <td valign="bottom" bgcolor="#EBF0F1">&nbsp;</td>
       </tr>
     </table></td>
@@ -77,23 +68,9 @@ body, td, th {
   <tr>
     <td><table border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td width="72" align="center" valign="top" class="NavCopy"><a href="/c17/">c17</a></td>
-        <td width="72" align="center" valign="top" class="NavCopy"><a href="/c14/">c16</a></td>
-        <td width="72" align="center" valign="top" class="NavCopy"><a href="/c16/">c15</a></td>
-        <td width="80" align="center" valign="top" class="NavCopy"><a href="/c15/">c14</a></td>
-        <td width="96" align="center" valign="top" class="NavCopy"><a href="/c13/">c13</a></td>
-        <td width="82" align="center" valign="top" class="NavCopy"><a href="/c12/">c12</a></td>
-        <td width="82" align="center" valign="top" class="NavCopy"><a href="/c11/">c11</a></td>
-        <td width="85" align="center" valign="top" class="NavCopy"><a href="/c10/">c10</a></td>
-        <td width="79" align="center" valign="top" class="NavCopy"><a href="/c9/">c9</a></td>
-        <td width="72" align="center" valign="top" class="NavCopy"><a href="/c8/">c8</a></td>
-        <td width="86" align="center" valign="top" class="NavCopy"><a href="/c7/">c7</a></td>
-        <td width="78" align="center" valign="top" class="NavCopy"><a href="/c6/">c6</a></td>
-        <td width="77" align="center" valign="top" class="NavCopy"><a href="/c5/">c5</a></td>
-        <td width="82" align="center" valign="top" class="NavCopy"><a href="/c4/">c4</a></td>
-        <td width="82" align="center" valign="top" class="NavCopy"><a href="/c3/">c3</a></td>
-        <td width="80" align="center" valign="top" class="NavCopy"><a href="/c2/">c2</a></td>
-        <td width="82" align="center" valign="top" class="NavCopy"><a href="/c1/">c1</a></td>
+        {%- for item in collections.timelineCollections %}
+        <td width="{{ navWidths[loop.index0] }}" align="center" valign="top" class="NavCopy"><a href="{{ item.url }}" title="{{ item.data.title }}">c{{ item.data.number }}</a></td>
+        {%- endfor %}
         <td width="83" align="center" valign="top" class="NavCopy">&nbsp;</td>
       </tr>
     </table></td>

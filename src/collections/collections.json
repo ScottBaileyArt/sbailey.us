@@ -1,0 +1,5 @@
+{
+  "layout": "collection.njk",
+  "tags": "collections",
+  "permalink": "/{{ page.fileSlug }}/"
+}

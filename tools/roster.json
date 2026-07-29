@@ -1,0 +1,19 @@
+[
+  {"prefix": "c1",  "number": 1,  "slug": "miscellaneous",                   "title": "Miscellaneous",                   "year": 1990},
+  {"prefix": "c2",  "number": 2,  "slug": "shizen-no-tamashii",              "title": "自然の魂 (shizen no tamashii)",     "year": 1996},
+  {"prefix": "c3",  "number": 3,  "slug": "screens-and-sculptural-paintings","title": "Screens and Sculptural Paintings","year": 1997},
+  {"prefix": "c4",  "number": 4,  "slug": "scrolls",                         "title": "Scrolls",                         "year": 1998},
+  {"prefix": "c5",  "number": 5,  "slug": "meditations-on-aesthetics",       "title": "Meditations on Aesthetics",       "year": 2000},
+  {"prefix": "c6",  "number": 6,  "slug": "inside-looking-out",              "title": "Inside Looking Out",              "year": 2001},
+  {"prefix": "c7",  "number": 7,  "slug": "crimson",                         "title": "Crimson",                         "year": 2002},
+  {"prefix": "c8",  "number": 8,  "slug": "waku-wo-koete",                   "title": "枠を超えて (waku wo koete)",        "year": 2004},
+  {"prefix": "c9",  "number": 9,  "slug": "contemporary-landscapes",         "title": "Contemporary Landscapes",         "year": 2005},
+  {"prefix": "c10", "number": 10, "slug": "virtually-sublime",               "title": "Virtually Sublime",               "year": 2006},
+  {"prefix": "c11", "number": 11, "slug": "infrared",                        "title": "Infrared",                        "year": 2007},
+  {"prefix": "c12", "number": 12, "slug": "oversight",                       "title": "Oversight",                       "year": 2008},
+  {"prefix": "c13", "number": 13, "slug": "earthly-constellations",          "title": "Earthly Constellations",          "year": 2009},
+  {"prefix": "c15", "number": 14, "slug": "manifest-destiny",                "title": "Manifest Destiny",                "year": 2010},
+  {"prefix": "c16", "number": 15, "slug": "topometry-topology-topography",   "title": "Topometry, Topology, Topography", "year": 2012},
+  {"prefix": "c14", "number": 16, "slug": "anthropogenic-landscapes",        "title": "Anthropogenic Landscapes",        "year": 2015},
+  {"prefix": "c17", "number": 17, "slug": "accretions",                      "title": "Accretions",                      "year": 2022}
+]

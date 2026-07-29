@@ -1,0 +1,26 @@
+---
+layout: base.njk
+pagination:
+  data: collections.statements
+  size: 1
+  alias: entry
+permalink: "/{{ entry.page.fileSlug }}/statement/"
+eleventyComputed:
+  title: "{{ entry.data.title }} — Exhibition Statement"
+---
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="83" valign="top"><div class="collectionNumber">c{{ entry.data.number }}</div></td>
+    <td width="100%" valign="top"><h1 class="pageTitle">{{ entry.data.title }}</h1></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td align="left" class="bioCopy">
+      {%- for paragraph in entry.data.exhibition_statement %}
+      <p class="style3">{{ paragraph }}</p>
+      {%- endfor %}
+      <p class="style3"><a href="{{ entry.url }}">&larr; Back to {{ entry.data.title }}</a></p>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>

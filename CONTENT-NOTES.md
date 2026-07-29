@@ -54,21 +54,65 @@ display bug fix, not a content change.
 
 ## Site-wide structural findings
 
-**Collection files are misnamed (three of them).** The filename does not match
-the collection the page actually contains:
+**Four different numbering schemes, none of which agree.** The collections are
+numbered inconsistently across page filenames, title graphics, and image
+folders:
 
-| File | Collection it actually shows |
-|------|------------------------------|
-| `c14.htm` | collection **16** |
-| `c15.htm` | collection **14** |
-| `c16.htm` | collection **15** |
+| Scheme | Example | Status |
+|--------|---------|--------|
+| Page filenames | `c14.htm` | **14/15/16 are scrambled** |
+| Number badge graphic | `titleC16.gif` | correct (chronological) |
+| Name graphic | `titleTextC14.jpg` | reversed for c1–c11, offset for 14–16 |
+| Image folders | `images/c0/` | `c0` holds collection **11**'s images |
 
-`c12`, `c13`, and `c17` are self-consistent. The navigation compensates for this
-— the link labelled "c16" correctly points at `c14.htm` — so **the site works
-correctly today** and the rebuild preserves that behaviour. But it is confusing
-to maintain. When collections are converted to data files (roadmap step 3), the
-URLs should be corrected so collection 14 lives at `/c14/`. Ideally collections
-would be addressed by name (`/accretions/`) rather than number.
+**Three page files are misnamed.** Cross-referencing the name graphics against
+the exhibition years in the bio confirms a clean three-way swap:
+
+| File | Collection | Actually is | Year |
+|------|-----------|-------------|------|
+| `c14.htm` | 16 | Anthropogenic Landscapes | 2015 |
+| `c15.htm` | 14 | Manifest Destiny | 2010 |
+| `c16.htm` | 15 | Topometry, Topology, Topography | 2012 |
+
+The number badges and the navigation are both *correct*; only the filenames are
+wrong, and the nav compensates (the link labelled "c16" points at `c14.htm`).
+**The site works correctly today** and the rebuild preserves that behaviour.
+
+**Resolved: `c11.htm` has no `images/c11` folder** because collection 11 is
+*Infrared* (2007), whose images live in `images/c0/` and whose detail pages are
+`c0_01.htm` … `c0_11.htm`. Not an orphan — just another instance of assets
+numbered on a different scheme than pages. No action needed.
+
+**None of this carries into the rebuild.** Collections are being rebuilt as data
+files addressed by name (`/accretions/`), so all four numbering schemes are read
+once during migration and then retired. No files are being renamed.
+
+**[preserved] Two collection titles are Japanese and were transcribed from the
+title graphics**, since the images carried text the `alt` attributes omitted:
+
+| Collection | Transcribed as |
+|-----------|----------------|
+| c2 | 自然の魂 (shizen no tamashii) |
+| c8 | 枠を超えて (waku wo koete) |
+
+Read off low-resolution GIFs, so **Scott should confirm the characters** —
+particularly c8. The romanised names match his bio exactly.
+
+**[changed] Collection 17 now has a timeline node marker.** In the original, the
+row of node markers had one for every collection except c17 (*Accretions*),
+which had a text label but no clickable node above it. The rebuild generates
+both rows from the same data, so c17 now gets one like the rest.
+
+**[preserved] Several artworks have no medium or year in the original captions**
+— 11 of 168. The rebuild leaves those fields blank rather than inventing them:
+3 installation views in *Inside Looking Out*, 4 details in *Virtually Sublime*,
+3 installation views in *Infrared*, and a studio view in *Earthly
+Constellations*.
+
+**[changed] Artwork `alt` text was regenerated.** The originals were placeholder
+strings — `alt="IR1"`, `alt="IR2"`, and `alt="Inside Looking Out"` repeated on
+pages of entirely unrelated collections. Each image now uses its own artwork
+title, which is what a screen reader should announce.
 
 **Broken spacer image next to the "BIO" title, live site only.** `bio.htm`
 references `images/common/spacer.gif` (lowercase), but the live server's real

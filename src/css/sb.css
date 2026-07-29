@@ -123,33 +123,22 @@ a.HREFnoDec:hover { COLOR: #171F29 ; text-decoration:underline;  }
 	border-left-style: solid;
 	border-left-color: #ecf0f1;
 }
+/* The 26px padding and bottom borders here were dormant while the stylesheet
+   link was broken, so the live site never showed them. Restoring sb.css
+   revealed both: wide gaps between artworks and horizontal rules across the
+   listing. Padding reduced and the rules removed, per Scott. */
 .DetailLeftTD {
-
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #8499A0;
-	margin-top: 26px;
-	margin-right: 34px;
-	margin-bottom: 26px;
-	margin-left: 19px;
-	padding-top: 26px;
-	padding-right: 34px;
-	padding-bottom: 26px;
-	padding-left: 19px;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #ecf0f1;
+	padding: 6px 34px 6px 19px;
 }
 .DetailRightTD {
-
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #8499A0;
 	margin-left: 0px;
 	padding-left: 0px;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #ecf0f1;
 }
 .mainTableNoOutlineTD {
 }
@@ -175,4 +164,30 @@ a.HREFnoDec:hover { COLOR: #171F29 ; text-decoration:underline;  }
 	margin: 10px 18px;
 	padding: 10px 18px;
 	line-height: 150%;
+}
+
+/* Page and collection titles were previously GIF/JPG graphics (titleBio.gif,
+   titleTextC*.gif). They are now real text so new collections can be added
+   without making an image. Values sampled from the originals: colour #c6d5da,
+   26px cap height, and a 19px left inset baked into the old graphics — which
+   is what keeps the title aligned with the bio page. Exact typeface still
+   needs Scott's eye. */
+.pageTitle,
+.collectionNumber {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	font-weight: 300;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #c6d5da;
+	white-space: nowrap;
+	margin: 0;
+	line-height: 57px;
+}
+.pageTitle {
+	padding-left: 19px;
+}
+/* The number badge sat in its own 83px cell with a 10px inset. */
+.collectionNumber {
+	padding-left: 10px;
 }

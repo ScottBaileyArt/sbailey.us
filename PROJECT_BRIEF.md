@@ -114,11 +114,12 @@ prerequisite for everything else.
 
 ## Roadmap after that
 
-1. ✅ Eleventy running, `bio.htm` ported (current task)
+1. ✅ Eleventy running, `bio.htm` ported
 2. Port `contact.htm`, `index.htm`, `collections.htm`
-3. Restructure collections as **data** — a file per collection with title, year,
-   statement, and image list — so one template generates all collection pages and
-   the timeline nav is generated from that list rather than hand-copied
+3. ⬅ **current** — Restructure collections as **data** — a file per collection
+   with title, year, statement, and image list — so one template generates all
+   collection pages and the timeline nav is generated from that list rather than
+   hand-copied
 4. Image pipeline: `@11ty/eleventy-img` for automatic resizing + `srcset`.
    Important — he will upload 15MB studio photographs, and without this the site
    is unusable on mobile.
@@ -128,6 +129,36 @@ prerequisite for everything else.
 7. Deploy to Cloudflare Pages / Netlify on a temporary URL, test
 8. Sveltia CMS + get him logged in and publishing a test change himself
 9. Point `sbailey.us` DNS at the new host; ask WVC to retire the old copies
+
+---
+
+## Decisions made (2026-07-29)
+
+Settled while planning the collections rebuild. Recorded here because each one
+shapes work downstream.
+
+**Collection URLs use names, not numbers** — `/anthropogenic-landscapes/`, not
+`/c16/`. The old site had four mutually-inconsistent numbering schemes (see
+`CONTENT-NOTES.md`); addressing by name retires all of them at once and means
+he never has to renumber when inserting a collection.
+
+**No legacy files get renamed.** Collections are rebuilt from data files, so
+`html/` is read as reference during migration and deleted at the end. There is
+no risky bulk `git mv`, and the filename scrambling simply doesn't come along.
+
+**Collection titles become real text, not graphics.** Currently each title is a
+GIF/JPG (`titleTextC14.jpg`). Required for CMS self-service — otherwise every
+new collection needs someone to produce a matching image. Also serves the
+larger-type goal and reflows on phones. Match the original face with a close
+web font.
+
+**The lightbox replaces the ~150 per-image detail pages.** PhotoSwipe covers
+full-screen, arrow keys, swipe and pinch-zoom in one library. Individual
+artworks lose their own URLs; accepted.
+
+**Artwork data keeps full detail** — title, medium, dimensions, year per piece,
+matching the current site. These field names become the CMS form he fills in,
+so the data shape *is* the publishing experience.
 
 ---
 
