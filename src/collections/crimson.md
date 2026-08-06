@@ -105,6 +105,11 @@ exhibition_statement:
   He sees a fascinating and fertile complexity in simplicity and then suggests that we open
   that inner eye that leads...where?
 - Adrian Saunders teaches Art History at the American University in Cairo
+index_location: Cairo, Egypt, 2002
+index_venue: Townhouse Gallery, Cairo, Egypt, 2002
+index_summary: Paintings and sculptures exploring the fine line between the exquisite and
+  the horrific.
+index_icon: images/collections/c7.jpg
 works:
 - thumbnail: images/c4/D1WCrimson17.jpg
   thumb_width: 90

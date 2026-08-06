@@ -3,6 +3,11 @@ title: Inside Looking Out
 number: 6
 year: 2001
 legacy_prefix: c6
+index_location: Pretoria, S. Africa/Cairo, Egypt, 2001
+index_venue: American University in Cairo, Egypt, 2001
+index_summary: Landscapes of Pretoria and Cairo painted from direct observation through colored
+  and patterned glass.
+index_icon: images/collections/c6.jpg
 works:
 - thumbnail: images/c5/D1WPretoria1.jpg
   thumb_width: 90

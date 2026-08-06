@@ -236,6 +236,14 @@ exhibition_statement:
   each of these pieces is in fact a picture of the same thing; where he is wise is that he
   leaves us to decide what that is and then to find it in our experience every day.
 - Adrian Saunders is a Lecturer in the History of Art at the American University in Cairo
+index_location: Cairo, Egypt/Rome, Italy 1999-2000
+index_venue: American Academy in Rome, Rome, Italy 1999, Townhouse Gallery, Cairo, Egypt,
+  2000, Gezira Art Center and Museum, Cairo, Egypt, 2000, Broward County Community College,
+  2003
+index_summary: Abstract and literal at the same time, these paintings take an unflinching
+  look at the detritus found on the streets of Cairo, subjects inherently disturbing or unpleasant
+  but having exquisite formal and aesthetic values.
+index_icon: images/collections/c5.jpg
 works:
 - thumbnail: images/c6/D1WBird.jpg
   thumb_width: 90

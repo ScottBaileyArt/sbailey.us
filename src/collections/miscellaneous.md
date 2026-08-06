@@ -3,6 +3,7 @@ title: Miscellaneous
 number: 1
 year: 1990
 legacy_prefix: c1
+index_icon: images/collections/c1.jpg
 works:
 - thumbnail: images/c10/c1 Still LifeS.jpg
   thumb_width: 75

@@ -65,6 +65,12 @@ exhibition_statement:
   measurements and can provide extremely precise visual information, the image is computer
   generated and not real. The Virtually Sublime painting is based on images achieved through
   this process.
+index_location: Washington State, USA, 2006
+index_venue: Sarah Spurgeon Gallery, Central Washington University, Ellensburg, WA, 2006
+index_summary: Video Installation and large scale painting project questioning the painter’s
+  notion of the sublime in the landscape through contemporary technology of satellite imaging
+  and digital mapping processes.
+index_icon: images/collections/c10.jpg
 works:
 - thumbnail: images/c1/VS01T.jpg
   thumb_width: 147

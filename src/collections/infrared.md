@@ -28,6 +28,11 @@ exhibition_statement:
   where nature meets culture.
 - Special thanks to Eric Seims and the 2nd Platoon, Charlie Company, 1-161 Infantry, 81st
   Brigade for their sacrifices and for helping me see my work in a new light.
+index_location: Washington State, USA, 2007
+index_venue: Eastern Washington University Gallery, Cheney, WA, 2007
+index_summary: Paintings inspired by a single NASA Advanced Spaceborne Thermal Emission and
+  Reflection Radiometer (ASTER) photo taken of Baghdad on the morning of March 31, 2003.
+index_icon: images/collections/c11.jpg
 works:
 - thumbnail: images/C0/01InfraredSSEsm.jpg
   thumb_width: 150

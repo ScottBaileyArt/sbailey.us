@@ -3,6 +3,11 @@ title: Screens and Sculptural Paintings
 number: 3
 year: 1997
 legacy_prefix: c3
+index_location: Fort Collins, CO, 1997-1998
+index_venue: Hatton Gallery, Colorado State University, Fort Collins, CO 1998
+index_summary: Large scale screens and sculpturally installed landscape paintings exploring
+  combinations of form and aesthetics from American and Japanese inspiration.
+index_icon: images/collections/c3.jpg
 works:
 - thumbnail: images/c8/D1Wscreen97-.jpg
   thumb_width: 147

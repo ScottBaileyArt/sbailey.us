@@ -3,6 +3,10 @@ title: 自然の魂 (shizen no tamashii)
 number: 2
 year: 1996
 legacy_prefix: c2
+index_location: Fort Collins, CO, 1996
+index_venue: White Gallery, Kagoshima, Japan, 1996
+index_summary: Abstracted landscapes.
+index_icon: images/collections/c2.jpg
 works:
 - thumbnail: images/c9/D1Wlandscape96.jpg
   thumb_width: 68

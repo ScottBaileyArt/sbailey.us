@@ -44,6 +44,11 @@ exhibition_statement:
   top layers. They are the products of a few simple variables repeated and slightly altered
   from section to section, panel to panel. As in life, amid the cacophony, these pieces struggle
   to find—between rational and organic; signal and noise; order and chaos—balance.
+index_location: Washington State, USA, 2022
+index_venue: MAC Gallery Wenatchee, WA, 2022
+index_summary: Accumulations of millions of tiny bits of color, attempting to cope with apprehensions
+  about things exponentially proliferating in the world.
+index_icon: images/c17/c17 03Ws Accretion 5 Detail 2 icon.jpg
 works:
 - thumbnail: images/c17/c17 01Ws Accretions 9 10 11 12 5 and 6.jpg
   thumb_width: 220

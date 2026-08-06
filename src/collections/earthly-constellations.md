@@ -6,6 +6,12 @@ legacy_prefix: c13
 statement: Through a process of controlled accident, countless splatters of (primarily of
   transparent drops of cyan, magenta, and yellow) acrylic paint express the night views from
   space of various cities.
+index_location: Washington St.//Santa Fe, NM 2009
+index_venue: Santa Fe Art Institute, NM, 2008
+index_summary: Through a process of controlled accident, countless splatters of (primarily
+  of transparent drops of cyan, magenta, and yellow) acrylic paint express the night views
+  from space of various cities.
+index_icon: images/collections/C13.jpg
 works:
 - thumbnail: images/c13/01MeccaJerusalemWs.jpg
   thumb_width: 128

@@ -35,6 +35,12 @@ exhibition_statement:
   from reality, they point to the values of traditional, sublime Romantic landscape painting
   and nature photography, while insidiously questioning the nature of our relationship to
   the location and the efficacy of any vicarious experience of it.
+index_location: Washington State, USA, 2010
+index_venue: Robert Graves Gallery, Wenatchee, WA, 2010
+index_summary: Playing creator, explorer, and documenter of virtual landscapes with the use
+  of GIS and terrain generating software, new responses to the landscape are generated with
+  forms ranging from trompe l’oeil realistic photos and animations to painted geometric abstractions.
+index_icon: images/collections/c15.jpg
 works:
 - thumbnail: images/c15/01RainierPD-Ws.jpg
   thumb_width: 160

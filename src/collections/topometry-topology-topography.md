@@ -28,6 +28,11 @@ exhibition_statement:
   study the geometric structure beneath the surface of a particular section of the landscape.
   While the triangulated grid clearly connotes a high-tech computer process, those lines appear
   incised in a thick, impasto paint layer, clearly handmade and expressive.
+index_location: Washington State, USA, 2013
+index_venue: MAC Gallery, WVC Wenatchee, WA, 2013
+index_summary: Optically derived colors poured over sculptural forms reflect the local landscape,
+  paying simultaneous homage to nature as well as technology.
+index_icon: images/collections/c14.jpg
 works:
 - thumbnail: images/c16/01BaileyTTT2Ws.jpg
   thumb_width: 121

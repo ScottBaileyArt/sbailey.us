@@ -147,3 +147,50 @@ Either is a one-line change.
 2016 year heading**, while c17 (2023, *Accretions*) has a text label but no
 corresponding node marker in the row above it. Worth confirming the timeline
 still reflects how he wants the collections grouped by year.
+
+---
+
+## Collections index, contact, and home pages
+
+**New per-collection fields, sourced from `collections.htm`.** The old
+collections-index page (a card per collection: icon, location, exhibition
+venue, and a short blurb) drew on text that exists nowhere else — not on the
+collection's own page, not in the bio. That content is now `index_location`,
+`index_venue`, `index_summary`, and `index_icon` in all 17 collection data
+files. Nothing existing was changed; this is new data alongside it.
+
+**[preserved] The index card for c15 titles it "Topology, Topometry,
+Topography"** — word order swapped from "Topometry, Topology, Topography" on
+the collection's own page and in the timeline nav. Kept the collection page's
+order as the canonical title; the swapped index-card text was not carried
+over as a second title, just noted here.
+
+**[preserved] The index cards for c2 and c8 give English-only titles**
+("Shizen No Tamashii", "Waku Wo Koete"), without the Japanese characters used
+on those collections' own pages (自然の魂, 枠を超えて — see above). Both
+transcriptions are used only internally to locate where the title ends in the
+card's markup; the collection pages keep the characters as their title.
+
+**[preserved] c13's index blurb sat in a bare `<span class="style3">` with no
+surrounding `<p>` tag** — the same kind of broken markup already noted for
+this collection above. Recovered by hand rather than automatically.
+
+**[changed] Collections-index layout wraps into rows of 4** rather than the
+original's single ~2700px-wide scrolling row. Confirmed with Aydan rather than
+changed silently. The VIEW button is not yet pinned to the bottom of each
+card — attempted with a CSS table-cell technique that turned out to be
+unreliable across cards of different heights (visually confirmed not to work),
+reverted rather than left half-working. Real fix is straightforward once the
+layout moves to Grid/Flexbox in the mobile-first CSS pass (roadmap step 5);
+tracked there rather than patched further blind.
+
+**[preserved] Contact's email keeps the original's spam-obfuscated display
+text** — the visible text reads "scott.j.bailey **at** hotmail.com" rather
+than the real address, while the `mailto:` link itself is correct. Caught
+after an initial draft flattened this to a plain `@` address; restored to
+match the original's evident intent.
+
+**Homepage's featured artwork is hardcoded**, matching the original
+(`index.html`, *Accretion 3,871,914*). Update the image, caption, and link by
+hand when a new collection goes up — see any collection file's `works` list
+for the field shapes if this should become data-driven later.

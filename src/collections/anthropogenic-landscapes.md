@@ -7,6 +7,11 @@ statement: Computer generated Delaunay Triangulations, Triangulated Irregular Ne
   and gridded meshes of particular places form the analytical structure for expressive, often
   painterly, actions. Delaunay mesh structures from digital mapping data reflecting the landscape
   are incised into thick paint, paying simultaneous homage to nature as well as technology.
+index_location: Washington State, USA, 2015
+index_venue: Gallery One, Ellensburg, WA, 2015
+index_summary: Analytical Delaunay mesh lines incised into thick, painterly expressions of
+  particular assets of the landscape.
+index_icon: images/collections/c16.jpg
 works:
 - thumbnail: images/c14/01Sleepy Hollow TIN-Ws.jpg
   thumb_width: 100

@@ -77,6 +77,11 @@ exhibition_statement:
   GAP Grant. Blue Begonia Press published his chapbook of poems, A Mouthpiece of Thumbs (2000).
   Recent work has appeared or is forthcoming in Open Spaces, Crab Creek Review, Passages North,
   and The North American Review .
+index_location: Washington State, USA, 2005
+index_venue: Moses Lake Museum and Art Center, Moses Lake, WA, 2005
+index_summary: A site-specific exhibition of the Moses Lake landscape, painted remotely from
+  Internet satellite images.
+index_icon: images/collections/c9.jpg
 works:
 - thumbnail: images/c2/D1WBrownGreenSm.jpg
   thumb_width: 147

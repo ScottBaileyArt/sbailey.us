@@ -3,6 +3,12 @@ title: 枠を超えて (waku wo koete)
 number: 8
 year: 2004
 legacy_prefix: c8
+index_location: Washington State, USA, 2004
+index_venue: White Gallery, Kagoshima, Japan, 2004
+index_summary: Paintings on PVC roofing material of images, primarily of the Middle East from
+  where I had recently returned, clipped out of my rural Washington hometown newspaper during
+  the summer of 2004.
+index_icon: images/collections/c8.jpg
 works:
 - thumbnail: images/c3/D1Wshrapnel1s.jpg
   thumb_width: 91

@@ -3,6 +3,13 @@ title: Scrolls
 number: 4
 year: 1998
 legacy_prefix: c4
+index_location: Fort Collins, CO, 1998
+index_venue: Lincoln Center for the Performing Arts Gallery, Fort Collins, 1998, Colorado
+  State University Directions Gallery, Fort Collins, 1998, Gezira Art Center and Museum, Cairo,
+  Egypt, 2000
+index_summary: Large paintings, made from a process of staining unprimed, un-stretched canvases,
+  exploring traditional Japanese formal and philosophical concerns.
+index_icon: images/collections/c4.jpg
 works:
 - thumbnail: images/c7/D1WOpus.jpg
   thumb_width: 147
