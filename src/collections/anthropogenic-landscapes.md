@@ -21,6 +21,8 @@ works:
   medium: Acrylic on Panel
   dimensions: 36” X 40”
   image: images/c14/01Sleepy Hollow TIN-W.jpg
+  image_width: 634
+  image_height: 570
 - thumbnail: images/c14/02Sleepy Hollow TIN-2-Ws.jpg
   thumb_width: 101
   thumb_height: 90
@@ -29,6 +31,8 @@ works:
   medium: Acrylic on Panel
   dimensions: 36” X 40”
   image: images/c14/02Sleepy Hollow TIN-2-W.jpg
+  image_width: 638
+  image_height: 570
 - thumbnail: images/c14/03BaileyHereWs.jpg
   thumb_width: 93
   thumb_height: 90
@@ -37,6 +41,8 @@ works:
   medium: Acrylic and Enamel on Wood Panel
   dimensions: 25" X 25"
   image: images/c14/03BaileyHereW.jpg
+  image_width: 588
+  image_height: 570
 - thumbnail: images/c14/04BaileyHereDetailWs.jpg
   thumb_width: 120
   thumb_height: 90
@@ -45,6 +51,8 @@ works:
   medium: Acrylic and Enamel on Wood Panel
   dimensions: 25" X 25"
   image: images/c14/04BaileyHereDetailW.jpg
+  image_width: 762
+  image_height: 570
 - thumbnail: images/c14/05MeshscapeWs.jpg
   thumb_width: 100
   thumb_height: 100
@@ -53,6 +61,8 @@ works:
   medium: Acrylic and Enamel on Wood Panel
   dimensions: 32” X 32”
   image: images/c14/05MeshscapeW.jpg
+  image_width: 568
+  image_height: 570
 - thumbnail: images/c14/06Ukiyo-MeshWs.jpg
   thumb_width: 96
   thumb_height: 90
@@ -61,6 +71,8 @@ works:
   medium: Acrylic on Canvas
   dimensions: 42” X 40”
   image: images/c14/06Ukiyo-Mesh-W.jpg
+  image_width: 607
+  image_height: 570
 - thumbnail: images/c14/07Constructed-LandscapeWs.jpg
   thumb_width: 155
   thumb_height: 90
@@ -69,6 +81,8 @@ works:
   medium: Oil and Acrylic on Panel
   dimensions: 64” X 36”
   image: images/c14/07Constructed-LandscapeW.jpg
+  image_width: 985
+  image_height: 570
 - thumbnail: images/c14/08Noctilucent-Ws.jpg
   thumb_width: 158
   thumb_height: 92
@@ -77,6 +91,8 @@ works:
   medium: Acrylic on Panel
   dimensions: 64” X 36”
   image: images/c14/08Noctilucent-W.jpg
+  image_width: 1000
+  image_height: 570
 - thumbnail: images/c14/09Constructred-Landscape-DetailWs.jpg
   thumb_width: 113
   thumb_height: 90
@@ -85,6 +101,8 @@ works:
   medium: Oil and Acrylic on Panel
   dimensions: 36” X 40”
   image: images/c14/09Constructred-Landscape-DetailW.jpg
+  image_width: 713
+  image_height: 570
 - thumbnail: images/c14/10Tessellated-Barrio-Ws.jpg
   thumb_width: 149
   thumb_height: 86
@@ -93,6 +111,8 @@ works:
   medium: Acrylic on Canvas
   dimensions: 78” X 48”
   image: images/c14/10Tessellated-Barrio-W.jpg
+  image_width: 935
+  image_height: 570
 - thumbnail: images/c14/11Tesselated-Barrio-2-Ws.jpg
   thumb_width: 135
   thumb_height: 90
@@ -101,6 +121,8 @@ works:
   medium: Acrylic on Canvas
   dimensions: 78” X 48”
   image: images/c14/11Tesselated-Barrio-2-W.jpg
+  image_width: 852
+  image_height: 570
 - thumbnail: images/c14/12Gallery-One-Install-2-Ws.jpg
   thumb_width: 160
   thumb_height: 93
@@ -109,6 +131,8 @@ works:
   medium: Clothesline Wire, Electrical Connectors, Rivets
   dimensions: 11’ X 19’
   image: images/c14/12Gallery-One-Install-2-W.jpg
+  image_width: 1013
+  image_height: 570
 - thumbnail: images/c14/13Robert-Graves-Install-2-Ws.jpg
   thumb_width: 177
   thumb_height: 103
@@ -117,6 +141,8 @@ works:
   medium: Clothesline Wire, Electrical Connectors, Rivets
   dimensions: 11’ X 19’
   image: images/c14/13Robert-Graves-Install-2-W.jpg
+  image_width: 1112
+  image_height: 570
 - thumbnail: images/c14/14Instant-Landscape-1-Ws.jpg
   thumb_width: 146
   thumb_height: 85
@@ -124,6 +150,8 @@ works:
   year: 2010
   medium: Light, Construction Mesh
   image: images/c14/14Instant-Landscape-1-W.jpg
+  image_width: 920
+  image_height: 570
 - thumbnail: images/c14/15Instant-Landscape-3-Ws.jpg
   thumb_width: 134
   thumb_height: 90
@@ -131,4 +159,6 @@ works:
   year: 2010
   medium: Light, Construction Mesh
   image: images/c14/15Instant-Landscape-3-W.jpg
+  image_width: 849
+  image_height: 570
 ---

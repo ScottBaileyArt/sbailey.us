@@ -19,6 +19,8 @@ works:
   medium: Acrylic and Oil on Wood Panel
   dimensions: 64” X 36”
   image: images/c12/DC1.jpg
+  image_width: 800
+  image_height: 444
 - thumbnail: images/c12/DC2sm.jpg
   thumb_width: 150
   thumb_height: 85
@@ -27,6 +29,8 @@ works:
   medium: Acrylic and Oil on Wood Panel
   dimensions: 64” X 36”
   image: images/c12/DC2.jpg
+  image_width: 800
+  image_height: 453
 - thumbnail: images/c12/DC3sm.jpg
   thumb_width: 150
   thumb_height: 83
@@ -35,6 +39,8 @@ works:
   medium: Acrylic and Oil on Wood Panel
   dimensions: 64” X 36”
   image: images/c12/DC3.jpg
+  image_width: 800
+  image_height: 442
 - thumbnail: images/c12/DC4sm.jpg
   thumb_width: 150
   thumb_height: 84
@@ -43,6 +49,8 @@ works:
   medium: Acrylic and Oil on Wood Panel
   dimensions: 64” X 36”
   image: images/c12/DC4.jpg
+  image_width: 800
+  image_height: 450
 - thumbnail: images/c12/DCdetailsm.jpg
   thumb_width: 150
   thumb_height: 113
@@ -51,6 +59,8 @@ works:
   medium: Acrylic and Oil on Wood Panel
   dimensions: 64” X 36”
   image: images/c12/DCdetail.jpg
+  image_width: 800
+  image_height: 600
 - thumbnail: images/c12/TehranNsm.jpg
   thumb_width: 150
   thumb_height: 84
@@ -59,6 +69,8 @@ works:
   medium: Acrylic and Oil on Wood Panel
   dimensions: 64” X 36”
   image: images/c12/TehranN.jpg
+  image_width: 800
+  image_height: 448
 - thumbnail: images/c12/TehranEsm.jpg
   thumb_width: 150
   thumb_height: 83
@@ -67,6 +79,8 @@ works:
   medium: Acrylic and Oil on Wood Panel
   dimensions: 64” X 36”
   image: images/c12/TehranE.jpg
+  image_width: 800
+  image_height: 444
 - thumbnail: images/c12/TehranCsm.jpg
   thumb_width: 150
   thumb_height: 88
@@ -75,6 +89,8 @@ works:
   medium: Acrylic and Oil on Wood Panel
   dimensions: 64” X 36”
   image: images/c12/TehranC.jpg
+  image_width: 800
+  image_height: 467
 - thumbnail: images/c12/TehranSsm.jpg
   thumb_width: 150
   thumb_height: 83
@@ -83,6 +99,8 @@ works:
   medium: Acrylic and Oil on Wood Panel
   dimensions: 64” X 36”
   image: images/c12/TehranS.jpg
+  image_width: 800
+  image_height: 443
 - thumbnail: images/c12/TehranDetailSm.jpg
   thumb_width: 150
   thumb_height: 113
@@ -91,6 +109,8 @@ works:
   medium: Acrylic and Oil on Wood Panel
   dimensions: 64” X 36”
   image: images/c12/TehranDetail.jpg
+  image_width: 800
+  image_height: 600
 - thumbnail: images/c12/Damavand1sm.jpg
   thumb_width: 150
   thumb_height: 86
@@ -99,6 +119,8 @@ works:
   medium: Acrylic and Oil on Wood Panel
   dimensions: 64” X 36”
   image: images/c12/Damavand1.jpg
+  image_width: 800
+  image_height: 460
 - thumbnail: images/c12/RainierLPinstallSm.jpg
   thumb_width: 150
   thumb_height: 100
@@ -108,6 +130,8 @@ works:
     Dimensions Variable, (sculpture: )'
   dimensions: 4’ X 5’ X 2’
   image: images/c12/RainierLPinstall.jpg
+  image_width: 800
+  image_height: 532
 - thumbnail: images/c12/3_bailey_ranier_install2sm.jpg
   thumb_width: 150
   thumb_height: 113
@@ -117,6 +141,8 @@ works:
     Dimensions Variable, (sculpture: )'
   dimensions: 4’ X 5’ X 2’
   image: images/c12/3_bailey_ranier_install2.jpg
+  image_width: 800
+  image_height: 600
 - thumbnail: images/c12/LP-IR-Installsm.jpg
   thumb_width: 150
   thumb_height: 113
@@ -126,6 +152,8 @@ works:
     Carpet'
   dimensions: 15’ X 12’
   image: images/c12/LP-IR-Install.jpg
+  image_width: 800
+  image_height: 600
 - thumbnail: images/c12/2_bailey_drops_installSm.jpg
   thumb_width: 150
   thumb_height: 116
@@ -134,6 +162,8 @@ works:
   medium: 'Each: Enamel on Polymer Clay'
   dimensions: 5" X 5" X 4"
   image: images/c12/2_bailey_drops_install.jpg
+  image_width: 800
+  image_height: 618
 - thumbnail: images/c12/Drop1boxSm.jpg
   thumb_width: 150
   thumb_height: 101
@@ -142,4 +172,6 @@ works:
   medium: Enamel on Polymer Clay (Satin-Lined Enamel/Wood Box)
   dimensions: 5" X 5" X 4"
   image: images/c12/Drop1box.jpg
+  image_width: 800
+  image_height: 536
 ---

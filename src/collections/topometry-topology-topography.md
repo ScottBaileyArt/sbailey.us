@@ -42,6 +42,8 @@ works:
   medium: Acrylic on Concrete Canvas X 36"
   dimensions: 48” X 60”
   image: images/c16/01BaileyTTT2W.jpg
+  image_width: 766
+  image_height: 570
 - thumbnail: images/c16/02TTT2-Detail-Ws.jpg
   thumb_width: 68
   thumb_height: 90
@@ -50,6 +52,8 @@ works:
   medium: Acrylic on Concrete Canvas X 36"
   dimensions: 48” X 60”
   image: images/c16/02TTT2-Detail-W.jpg
+  image_width: 428
+  image_height: 570
 - thumbnail: images/c16/03BaileyTTT3Ws.jpg
   thumb_width: 142
   thumb_height: 100
@@ -58,6 +62,8 @@ works:
   medium: Acrylic on Concrete Canvas X 36"
   dimensions: 48” X 60”
   image: images/c16/03BaileyTTT3W.jpg
+  image_width: 800
+  image_height: 565
 - thumbnail: images/c16/04BaileyTTT4Ws.jpg
   thumb_width: 68
   thumb_height: 90
@@ -66,6 +72,8 @@ works:
   medium: Acrylic on Concrete Canvas
   dimensions: 85” X 30” X 30"
   image: images/c16/04BaileyTTT4W.jpg
+  image_width: 428
+  image_height: 570
 - thumbnail: images/c16/05BaileyTTT1Ws.jpg
   thumb_width: 68
   thumb_height: 90
@@ -74,6 +82,8 @@ works:
   medium: Acrylic on Concrete Canvas
   dimensions: 85” X 30” X 30"
   image: images/c16/05BaileyTTT1W.jpg
+  image_width: 428
+  image_height: 570
 - thumbnail: images/c16/06BaileyTTTinstallationWs.jpg
   thumb_width: 120
   thumb_height: 90
@@ -81,6 +91,8 @@ works:
   year: 2013
   venue: MAC Gallery, Wenatchee
   image: images/c16/06BaileyTTTinstallationW.jpg
+  image_width: 760
+  image_height: 570
 - thumbnail: images/c16/07BaileyTTTInstallWs.jpg
   thumb_width: 123
   thumb_height: 90
@@ -88,6 +100,8 @@ works:
   year: 2013
   venue: MAC Gallery, Wenatchee
   image: images/c16/07BaileyTTTInstallW.jpg
+  image_width: 778
+  image_height: 570
 - thumbnail: images/c16/08 3D-Painting-1-Ws.jpg
   thumb_width: 67
   thumb_height: 90
@@ -96,6 +110,8 @@ works:
   medium: Mixed media on fiberglass
   dimensions: 24" X 18" X 24"
   image: images/c16/08 3D-Painting-1-W.jpg
+  image_width: 422
+  image_height: 570
 - thumbnail: images/c16/09 3D-Painting-2-Ws.jpg
   thumb_width: 73
   thumb_height: 90
@@ -104,6 +120,8 @@ works:
   medium: Mixed media on fiberglass
   dimensions: 24" X 24" X 25"
   image: images/c16/09 3D-Painting-2-W.jpg
+  image_width: 465
+  image_height: 570
 - thumbnail: images/c16/10Shelf2Ws.jpg
   thumb_width: 107
   thumb_height: 90
@@ -112,6 +130,8 @@ works:
   medium: Acrylic on Mixed Media
   dimensions: 16” X 21” X 9”
   image: images/c16/10shelf1W.jpg
+  image_width: 679
+  image_height: 570
 - thumbnail: images/c16/11ShelfPaintingOWs.jpg
   thumb_width: 124
   thumb_height: 90
@@ -120,6 +140,8 @@ works:
   medium: Acrylic on Mixed Media
   dimensions: 16” X 21” X 9”
   image: images/c16/11ShelfPaintingOW.jpg
+  image_width: 784
+  image_height: 570
 - thumbnail: images/c16/12OversizedCanvas-Ws.jpg
   thumb_width: 140
   thumb_height: 90
@@ -128,6 +150,8 @@ works:
   medium: Acrylic on Canvas
   dimensions: 30” X 54” X 22”
   image: images/c16/12OversizedCanvas-W.jpg
+  image_width: 886
+  image_height: 570
 - thumbnail: images/c16/13Plexi-LargeWs.jpg
   thumb_width: 97
   thumb_height: 90
@@ -135,6 +159,8 @@ works:
   year: 2013
   medium: Spray Enamel and Acrylic on Plexiglass and Wood
   image: images/c16/13Plexi-Large-W.jpg
+  image_width: 612
+  image_height: 570
 - thumbnail: images/c16/14BlackenedTopoWs.jpg
   thumb_width: 66
   thumb_height: 90
@@ -143,4 +169,6 @@ works:
   medium: Mixed Media on Board
   dimensions: 18” X 24” X 3”
   image: images/c16/14BlackenedTopoW.jpg
+  image_width: 416
+  image_height: 570
 ---

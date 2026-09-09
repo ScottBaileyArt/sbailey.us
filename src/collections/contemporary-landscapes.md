@@ -91,6 +91,8 @@ works:
   medium: Acrylic and Oil on Canvas .5’
   dimensions: 9’ X 3
   image: images/c2/1WBrownGreenSm.jpg
+  image_width: 800
+  image_height: 312
 - thumbnail: images/c2/D2WRedGreenSm.jpg
   thumb_width: 140
   thumb_height: 90
@@ -99,6 +101,8 @@ works:
   medium: Acrylic on Canvas, 4.
   dimensions: 5’ X 7’
   image: images/c2/2WRedGreenSm.jpg
+  image_width: 800
+  image_height: 514
 - thumbnail: images/c2/D3WBlacklakeSm.jpg
   thumb_width: 147
   thumb_height: 73
@@ -107,6 +111,8 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 4’ X 4’
   image: images/c2/3WBlacklakeSm.jpg
+  image_width: 800
+  image_height: 396
 - thumbnail: images/c2/D4WBlueGreenLakeSm.jpg
   thumb_width: 90
   thumb_height: 90
@@ -115,6 +121,8 @@ works:
   medium: Acrylic on Canvas
   dimensions: 4’ X 4’
   image: images/c2/4WBlueGreenLakeSm.jpg
+  image_width: 569
+  image_height: 570
 - thumbnail: images/c2/D5WGridWhite.jpg
   thumb_width: 120
   thumb_height: 90
@@ -123,6 +131,8 @@ works:
   medium: Oil on Wood Panels
   dimensions: 1’ X 1’ X 12
   image: images/c2/5WGridWhite.jpg
+  image_width: 756
+  image_height: 565
 - thumbnail: images/c2/D6WPotholestriptych.jpg
   thumb_width: 147
   thumb_height: 53
@@ -131,6 +141,8 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 11’ X 4’
   image: images/c2/6WPotholestriptych.jpg
+  image_width: 800
+  image_height: 290
 - thumbnail: images/c2/D7WOrangeroofSm.jpg
   thumb_width: 91
   thumb_height: 90
@@ -139,6 +151,8 @@ works:
   medium: Acrylic on Canvas
   dimensions: 2’ X 2’
   image: images/c2/7WOrangeroofSm.jpg
+  image_width: 579
+  image_height: 570
 - thumbnail: images/c2/D8Wwhitebuilding.jpg
   thumb_width: 91
   thumb_height: 90
@@ -147,6 +161,8 @@ works:
   medium: Acrylic on Wood Panel
   dimensions: 2’ X 2’
   image: images/c2/8Wwhitebuilding.jpg
+  image_width: 574
+  image_height: 570
 - thumbnail: images/c2/D9Wblueroof.jpg
   thumb_width: 93
   thumb_height: 90
@@ -155,6 +171,8 @@ works:
   medium: Acrylic on Canvas
   dimensions: 2’ X 2’
   image: images/c2/9Wblueroof.jpg
+  image_width: 592
+  image_height: 570
 - thumbnail: images/c2/D10Wwhiteroof2.jpg
   thumb_width: 90
   thumb_height: 90
@@ -163,6 +181,8 @@ works:
   medium: Acrylic on Canvas
   dimensions: 2’ X 2’
   image: images/c2/10Wwhiteroof2.jpg
+  image_width: 570
+  image_height: 570
 - thumbnail: images/c2/D11WCropcircle3.jpg
   thumb_width: 90
   thumb_height: 90
@@ -171,6 +191,8 @@ works:
   medium: Oil and Acrylic on Canvas
   dimensions: 4’ X 4’
   image: images/c2/11WCropcircle3.jpg
+  image_width: 573
+  image_height: 570
 - thumbnail: images/c2/D12WSwirl2.jpg
   thumb_width: 127
   thumb_height: 91
@@ -179,6 +201,8 @@ works:
   medium: Oil and Acrylic on Canvas
   dimensions: 5’ X 4’
   image: images/c2/12WSwirl2.jpg
+  image_width: 798
+  image_height: 570
 - thumbnail: images/c2/D13WCausway.jpg
   thumb_width: 72
   thumb_height: 90
@@ -187,6 +211,8 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 4’ X 5’
   image: images/c2/13WCausway.jpg
+  image_width: 453
+  image_height: 570
 - thumbnail: images/c2/D14WI90.jpg
   thumb_width: 113
   thumb_height: 90
@@ -195,4 +221,6 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 8’ X 5’
   image: images/c2/14WI90.jpg
+  image_width: 716
+  image_height: 570
 ---

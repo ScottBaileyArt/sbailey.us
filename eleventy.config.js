@@ -1,6 +1,14 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy("src/js");
+
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/photoswipe/dist/photoswipe.esm.min.js": "js/photoswipe/photoswipe.esm.min.js",
+    "node_modules/photoswipe/dist/photoswipe-lightbox.esm.min.js":
+      "js/photoswipe/photoswipe-lightbox.esm.min.js",
+    "node_modules/photoswipe/dist/photoswipe.css": "css/photoswipe.css",
+  });
 
   // Oldest first, for listing pages.
   eleventyConfig.addCollection("orderedCollections", (api) =>

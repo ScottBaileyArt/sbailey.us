@@ -49,6 +49,8 @@ works:
   year: 2010
   medium: Animated Digital Rendering of Virtual Terrain
   image: images/c15/01RainierPD-Ws.jpg
+  image_width: 160
+  image_height: 90
 - thumbnail: images/c15/02PApocalypseWs.jpg
   thumb_width: 133
   thumb_height: 97
@@ -57,6 +59,8 @@ works:
   medium: Print on Canvas
   dimensions: 36” X 48”
   image: images/c15/02PApocalypseW.jpg
+  image_width: 760
+  image_height: 570
 - thumbnail: images/c15/03AfterFriedrichWs.jpg
   thumb_width: 150
   thumb_height: 101
@@ -65,6 +69,8 @@ works:
   medium: Oil on Canvas
   dimensions: 48” X 72”
   image: images/c15/03AfterFriedrichW.jpg
+  image_width: 800
+  image_height: 541
 - thumbnail: images/c15/04DelaunayWs.jpg
   thumb_width: 150
   thumb_height: 103
@@ -73,6 +79,8 @@ works:
   medium: Oil on Canvas
   dimensions: 48” X 72”
   image: images/c15/04DelaunayW.jpg
+  image_width: 800
+  image_height: 549
 - thumbnail: images/c15/05Forrest4TreesWs.jpg
   thumb_width: 150
   thumb_height: 102
@@ -81,6 +89,8 @@ works:
   medium: Acrylic on Canvas
   dimensions: 48” X 72”
   image: images/c15/05Forrest4TreesW.jpg
+  image_width: 800
+  image_height: 546
 - thumbnail: images/c15/06MissionContoursWs.jpg
   thumb_width: 136
   thumb_height: 94
@@ -89,6 +99,8 @@ works:
   medium: Oil on Canvas, ”
   dimensions: 48” X 60”
   image: images/c15/06MissionContoursW.jpg
+  image_width: 715
+  image_height: 570
 - thumbnail: images/c15/07AfterKellyWs.jpg
   thumb_width: 149
   thumb_height: 92
@@ -97,6 +109,8 @@ works:
   medium: (case dimensions), Oil and Mixed Media on Wood
   dimensions: 90” X 31”
   image: images/c15/07AfterKellyW.jpg
+  image_width: 800
+  image_height: 557
 - thumbnail: images/c15/08USFormicaWs.jpg
   thumb_width: 138
   thumb_height: 100
@@ -105,6 +119,8 @@ works:
   medium: Formica Samples and Wire
   dimensions: 60” X 72” X 8”
   image: images/c15/08USFormicaW.jpg
+  image_width: 769
+  image_height: 570
 - thumbnail: images/c15/09MD-Install-Ws.jpg
   thumb_width: 138
   thumb_height: 90
@@ -112,6 +128,8 @@ works:
   year: 2010
   medium: Painted Green Screen, Computer, Camera, Projector, Lights
   image: images/c15/09MD-Install-W.jpg
+  image_width: 872
+  image_height: 570
 - thumbnail: images/c15/10MD-Install-2-Ws.jpg
   thumb_width: 120
   thumb_height: 90
@@ -119,4 +137,6 @@ works:
   year: 2010
   medium: Painted Green Screen, Computer, Camera, Projector, Lights
   image: images/c15/10MD-Install2-W.jpg
+  image_width: 760
+  image_height: 570
 ---

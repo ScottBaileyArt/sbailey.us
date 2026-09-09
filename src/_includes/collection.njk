@@ -3,6 +3,12 @@ layout: base.njk
 ---
 {# One template renders every collection page from its data file.
    Legacy image filenames contain spaces, so paths are encoded on output. #}
+{%- macro workCaption(work) -%}
+<em>{{ work.title }}</em><br>
+{%- if work.venue %}{{ work.venue }}<br>
+{%- else %}{{ work.medium }}{% if work.dimensions %}, {{ work.dimensions }}{% endif %}<br>
+{%- endif %}{{ work.year }}
+{%- endmacro %}
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="83" valign="top"><div class="collectionNumber">c{{ number }}</div></td>
@@ -21,18 +27,12 @@ layout: base.njk
   </tr>
   <tr>
     <td>&nbsp;</td>
-    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="artworkGallery">
       {% for work in works %}
       <tr>
-        <td width="16%" valign="top" class="DetailLeftTD"><a href="{{ ('/' + work.image) | replace(" ", "%20") }}"><img src="{{ ('/' + work.thumbnail) | replace(" ", "%20") }}" alt="{{ work.title }}"{% if work.thumb_width %} width="{{ work.thumb_width }}"{% endif %}{% if work.thumb_height %} height="{{ work.thumb_height }}"{% endif %} border="0"></a></td>
+        <td width="16%" valign="top" class="DetailLeftTD"><a class="artworkLink" href="{{ ('/' + work.image) | replace(" ", "%20") }}"{% if work.image_width %} data-pswp-width="{{ work.image_width }}"{% endif %}{% if work.image_height %} data-pswp-height="{{ work.image_height }}"{% endif %} data-pswp-caption="{{ workCaption(work) }}"><img src="{{ ('/' + work.thumbnail) | replace(" ", "%20") }}" alt="{{ work.title }}"{% if work.thumb_width %} width="{{ work.thumb_width }}"{% endif %}{% if work.thumb_height %} height="{{ work.thumb_height }}"{% endif %} border="0"></a></td>
         <td width="2%" align="left" valign="middle" class="DetailRightTD">&nbsp;</td>
-        <td width="82%" align="left" valign="middle" class="style3"><p><em>{{ work.title }}</em><br>
-          {%- if work.venue %}
-          {{ work.venue }}<br>
-          {%- else %}
-          {{ work.medium }}{% if work.dimensions %}, {{ work.dimensions }}{% endif %}<br>
-          {%- endif %}
-          {{ work.year }}</p></td>
+        <td width="82%" align="left" valign="middle" class="style3"><p>{{ workCaption(work) }}</p></td>
       </tr>
       <tr>
         <td class="DetailLeftTD">&nbsp;</td>

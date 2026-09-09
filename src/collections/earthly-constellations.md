@@ -22,6 +22,8 @@ works:
   medium: Acrylic on Canvas, (each panel)
   dimensions: 4’ X 6’
   image: images/c13/01MeccaJerusalemW.jpg
+  image_width: 800
+  image_height: 563
 - thumbnail: images/c13/02Nagasaki.HiroshimaWs.jpg
   thumb_width: 142
   thumb_height: 90
@@ -30,6 +32,8 @@ works:
   medium: Acrylic on Canvas, (each panel) ”
   dimensions: 4’ X 5’
   image: images/c13/02Nagasaki.HiroshimaW.jpg
+  image_width: 800
+  image_height: 506
 - thumbnail: images/c13/03BaghdadWs.jpg
   thumb_width: 60
   thumb_height: 90
@@ -38,6 +42,8 @@ works:
   medium: Acrylic on Canvas
   dimensions: 4’ X 6’
   image: images/c13/03BaghdadW.jpg
+  image_width: 383
+  image_height: 570
 - thumbnail: images/c13/04SeoulWs.jpg
   thumb_width: 62
   thumb_height: 90
@@ -46,6 +52,8 @@ works:
   medium: Acrylic on Canvas
   dimensions: 4’ X 6’
   image: images/c13/04SeoulW.jpg
+  image_width: 390
+  image_height: 570
 - thumbnail: images/c13/05SaigonWs.jpg
   thumb_width: 61
   thumb_height: 90
@@ -54,6 +62,8 @@ works:
   medium: Acrylic on Canvas
   dimensions: 4’ X 6’
   image: images/c13/04SaigonW.jpg
+  image_width: 389
+  image_height: 570
 - thumbnail: images/c13/05EP.LA.LV.NO.Ws.jpg
   thumb_width: 150
   thumb_height: 65
@@ -62,6 +72,8 @@ works:
   medium: Acrylic on Canvas, (each panel)
   dimensions: 16” X 16”
   image: images/c13/05EP.LA.LV.NO.W.jpg
+  image_width: 800
+  image_height: 349
 - thumbnail: images/c13/06detail1NewOrleansWS.jpg
   thumb_width: 150
   thumb_height: 115
@@ -69,10 +81,14 @@ works:
   year: 2009
   medium: Acrylic on Canvas
   image: images/c13/06detail1NewOrleansW.jpg
+  image_width: 800
+  image_height: 612
 - thumbnail: images/c13/SFAIstudioWs.jpg
   thumb_width: 150
   thumb_height: 81
   title: Santa Fe Art Institute studio view
   year: 2009
   image: images/c13/SFAIstudioW.jpg
+  image_width: 800
+  image_height: 431
 ---

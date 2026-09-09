@@ -194,3 +194,26 @@ match the original's evident intent.
 (`index.html`, *Accretion 3,871,914*). Update the image, caption, and link by
 hand when a new collection goes up — see any collection file's `works` list
 for the field shapes if this should become data-driven later.
+
+---
+
+## Lightbox (PhotoSwipe)
+
+**Every artwork's real image dimensions were added.** `image_width`/
+`image_height` on all 168 artwork records, computed directly from the actual
+files via `tools/add-image-dimensions.py`. PhotoSwipe needs these upfront to
+size its zoom/pan viewport without a layout jump on first open. All 168
+resolved cleanly — no missing files.
+
+**Lightbox captions reuse the same data as the on-page caption**, via a shared
+Nunjucks macro in `collection.njk` (`workCaption`) — title, then venue or
+medium+dimensions, then year. One definition, two call sites, so they can't
+drift apart.
+
+**Not independently verified in a browser.** Everything static — markup,
+`data-pswp-*` attributes, asset resolution (CSS/JS all 200), JS syntax — was
+checked, but the actual click/zoom/arrow-key/swipe behavior needs a human;
+there's no browser automation available in this environment. Worth an actual
+click-through on a few collections (including `/miscellaneous/`, only 4 works,
+and one with genuinely missing medium/year like `/inside-looking-out/`) before
+calling this done.

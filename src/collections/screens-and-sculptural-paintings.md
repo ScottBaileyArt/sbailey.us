@@ -17,6 +17,8 @@ works:
   medium: Acrylic and Oil on Wood and Canvas
   dimensions: 6’ X 6’ X 2
   image: images/c8/1Wscreen97-.jpg
+  image_width: 800
+  image_height: 511
 - thumbnail: images/c8/D2Wscreen97-bk.jpg
   thumb_width: 147
   thumb_height: 92
@@ -25,6 +27,8 @@ works:
   medium: Acrylic and Oil on Wood and Canvas
   dimensions: 6’ X 6’ X 2
   image: images/c8/2Wscreen97-bk.jpg
+  image_width: 800
+  image_height: 500
 - thumbnail: images/c8/D3Wscreen_taru97_ft.jpg
   thumb_width: 147
   thumb_height: 84
@@ -33,6 +37,8 @@ works:
   medium: Acrylic and Oil on Wood and Canvas
   dimensions: 6’ X 12’
   image: images/c8/3Wscreen_taru97_ft.jpg
+  image_width: 800
+  image_height: 459
 - thumbnail: images/c8/D4Wscreentaru97bk.jpg
   thumb_width: 147
   thumb_height: 90
@@ -41,6 +47,8 @@ works:
   medium: Acrylic and Oil on Wood and Canvas
   dimensions: 6’ X 12’
   image: images/c8/4Wscreentaru97bk.jpg
+  image_width: 800
+  image_height: 490
 - thumbnail: images/c8/D5Wredmt_pass97.jpg
   thumb_width: 147
   thumb_height: 65
@@ -49,6 +57,8 @@ works:
   medium: Acrylic and Oil on Canvas .5’
   dimensions: 14’ X 6
   image: images/c8/5Wredmt_pass97.jpg
+  image_width: 800
+  image_height: 355
 - thumbnail: images/c8/D6Wbigthompson97.jpg
   thumb_width: 147
   thumb_height: 72
@@ -57,6 +67,8 @@ works:
   medium: Acrylic and Oil on Canvas .5’
   dimensions: 13’ X 6
   image: images/c8/6Wbigthompson97.jpg
+  image_width: 800
+  image_height: 392
 - thumbnail: images/c8/D7Wmonolith.jpg
   thumb_width: 66
   thumb_height: 90
@@ -65,6 +77,8 @@ works:
   medium: Oil and Acrylic on Wood Panels, 2.
   dimensions: 5’ X 8’ X 2
   image: images/c8/7Wmonolith.jpg
+  image_width: 418
+  image_height: 570
 - thumbnail: images/c8/D8WSemiScreen.jpg
   thumb_width: 70
   thumb_height: 90
@@ -73,4 +87,6 @@ works:
   medium: Acrylic and Oil on Wood and Canvas
   dimensions: 6’ X 6’
   image: images/c8/8WSemiScreen.jpg
+  image_width: 442
+  image_height: 570
 ---

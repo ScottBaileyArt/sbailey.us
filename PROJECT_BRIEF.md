@@ -115,20 +115,25 @@ prerequisite for everything else.
 ## Roadmap after that
 
 1. ✅ Eleventy running, `bio.htm` ported
-2. Port `contact.htm`, `index.htm`, `collections.htm`
-3. ⬅ **current** — Restructure collections as **data** — a file per collection
-   with title, year, statement, and image list — so one template generates all
-   collection pages and the timeline nav is generated from that list rather than
-   hand-copied
-4. Image pipeline: `@11ty/eleventy-img` for automatic resizing + `srcset`.
-   Important — he will upload 15MB studio photographs, and without this the site
-   is unusable on mobile.
-5. Mobile-first CSS rewrite, larger type, keeping his visual character
-6. PhotoSwipe for the lightbox (full-screen, arrow keys, swipe, pinch-zoom,
-   thumbnails — covers most of his wishlist in one library)
-7. Deploy to Cloudflare Pages / Netlify on a temporary URL, test
-8. Sveltia CMS + get him logged in and publishing a test change himself
-9. Point `sbailey.us` DNS at the new host; ask WVC to retire the old copies
+2. ✅ `contact.htm`, `index.htm`, `collections.htm` ported
+3. ✅ Collections restructured as **data** — a file per collection with title,
+   year, statement, and image list; one template generates all 17 collection
+   pages, 8 exhibition-statement pages, and the timeline nav
+4. ✅ Deployed to Netlify, DNS pointed at `sbailey.us` — done ahead of sequence,
+   directly by Aydan (out of order with steps below, which predate this)
+5. ✅ PhotoSwipe lightbox — full-screen, arrow keys, swipe, pinch-zoom, with a
+   caption (title/medium/dimensions/year) built from the same data as the
+   on-page caption. `tools/add-image-dimensions.py` added real pixel
+   dimensions to all 168 artwork records, which PhotoSwipe needs upfront.
+6. Next up, not yet started: Sveltia CMS (self-service publishing) and the
+   image pipeline (`@11ty/eleventy-img` for automatic resizing + `srcset`).
+   These two belong together — he'll upload 15MB studio photographs through
+   the CMS, and without the pipeline those get served full-size, which is
+   what makes the site unusable on mobile.
+7. Mobile-first CSS rewrite, larger type, keeping his visual character —
+   deferred, no rush per Aydan
+8. WVC's old copies of the site still need to be retired once everyone's
+   comfortable with the cutover.
 
 ---
 

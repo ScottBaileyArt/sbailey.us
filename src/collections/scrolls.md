@@ -19,6 +19,8 @@ works:
   medium: Acrylic on Canvas
   dimensions: 35’ x 6’
   image: images/c7/1WOpus.jpg
+  image_width: 800
+  image_height: 255
 - thumbnail: images/c7/D2WBaileyImages-061.jpg
   thumb_width: 147
   thumb_height: 62
@@ -27,6 +29,8 @@ works:
   medium: Acrylic on Canvas
   dimensions: 28’ x 6’
   image: images/c7/2WBaileyImages-061.jpg
+  image_width: 800
+  image_height: 340
 - thumbnail: images/c7/D3WBaileyImages-059.jpg
   thumb_width: 71
   thumb_height: 90
@@ -35,6 +39,8 @@ works:
   medium: Acrylic on Canvas, 4
   dimensions: 6’ X 8’
   image: images/c7/3WBaileyImages-059.jpg
+  image_width: 449
+  image_height: 570
 - thumbnail: images/c7/D4WBaileyImages-058.jpg
   thumb_width: 75
   thumb_height: 90
@@ -43,6 +49,8 @@ works:
   medium: Acrylic on Canvas .5’
   dimensions: 6’ X 7
   image: images/c7/4WBaileyImages-058.jpg
+  image_width: 473
+  image_height: 570
 - thumbnail: images/c7/D5WBaileyImages-015.jpg
   thumb_width: 78
   thumb_height: 90
@@ -51,4 +59,6 @@ works:
   medium: Acrylic on Canvas .5’
   dimensions: 6’ X 7
   image: images/c7/5WBaileyImages-015.jpg
+  image_width: 493
+  image_height: 570
 ---

@@ -119,6 +119,8 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 5’ x 5’
   image: images/c4/1WCrimson17.jpg
+  image_width: 570
+  image_height: 570
 - thumbnail: images/c4/D2WCrimson5.jpg
   thumb_width: 90
   thumb_height: 90
@@ -127,6 +129,8 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 5’ x 5’
   image: images/c4/2WCrimson5.jpg
+  image_width: 571
+  image_height: 570
 - thumbnail: images/c4/D3WCrimson1.jpg
   thumb_width: 90
   thumb_height: 90
@@ -135,6 +139,8 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 5’ x 5’
   image: images/c4/3WCrimson1.jpg
+  image_width: 570
+  image_height: 570
 - thumbnail: images/c4/D4WCrimson.jpg
   thumb_width: 90
   thumb_height: 90
@@ -143,6 +149,8 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 5’ x 5’
   image: images/c4/4WCrimson.jpg
+  image_width: 570
+  image_height: 570
 - thumbnail: images/c4/D5WCrimson2.jpg
   thumb_width: 90
   thumb_height: 90
@@ -151,6 +159,8 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 5’ x 5’
   image: images/c4/5WCrimson2.jpg
+  image_width: 570
+  image_height: 570
 - thumbnail: images/c4/D6WCrimsonInstall.jpg
   thumb_width: 57
   thumb_height: 90
@@ -159,6 +169,8 @@ works:
   medium: Acrylic on Canvas (2)
   dimensions: 1’ x 9’
   image: images/c4/6WCrimsonInstall.jpg
+  image_width: 361
+  image_height: 570
 - thumbnail: images/c4/D7WCrimsonInstallation2.jpg
   thumb_width: 146
   thumb_height: 90
@@ -166,6 +178,8 @@ works:
   year: 2002
   venue: Townhouse Gallery November
   image: images/c4/7WCrimsonInstallation2.jpg
+  image_width: 800
+  image_height: 494
 - thumbnail: images/c4/D8WDrop5.jpg
   thumb_width: 139
   thumb_height: 90
@@ -174,6 +188,8 @@ works:
   medium: Enamel on Polymer Clay
   dimensions: 6” x 6” x 4”
   image: images/c4/8WDrop5.jpg
+  image_width: 800
+  image_height: 519
 - thumbnail: images/c4/D9WDropDetail.jpg
   thumb_width: 90
   thumb_height: 90
@@ -182,6 +198,8 @@ works:
   medium: Enamel on Polymer Clay
   dimensions: 6” x 6” x 4”
   image: images/c4/9WDropDetail.jpg
+  image_width: 570
+  image_height: 570
 - thumbnail: images/c12/Drop2sm.jpg
   thumb_width: 150
   thumb_height: 95
@@ -190,4 +208,6 @@ works:
   medium: Enamel on Polymer Clay
   dimensions: 6” x 6” x 4”
   image: images/c12/Drop2.jpg
+  image_width: 800
+  image_height: 507
 ---

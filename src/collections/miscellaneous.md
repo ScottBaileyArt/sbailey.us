@@ -12,6 +12,8 @@ works:
   year: 1990
   medium: "Oil on Canvas, 24\x94 X 30\x94"
   image: images/c10/c1 Still Life.jpg
+  image_width: 2888
+  image_height: 3345
 - thumbnail: images/c10/D1WJewlia.jpg
   thumb_width: 67
   thumb_height: 90
@@ -20,6 +22,8 @@ works:
   medium: Charcoal and Conté on Paper
   dimensions: 18” X 24”
   image: images/c10/1WJewlia.jpg
+  image_width: 420
+  image_height: 570
 - thumbnail: images/c10/D3WAttentionSM.jpg
   thumb_width: 147
   thumb_height: 55
@@ -28,6 +32,8 @@ works:
   medium: paintings, fencing Al Nitaq Art Festival
   dimensions: 5’x 5’
   image: images/c10/3WAttentionSM.jpg
+  image_width: 800
+  image_height: 300
 - thumbnail: images/c10/D4Wsculpture98.jpg
   thumb_width: 56
   thumb_height: 89
@@ -36,4 +42,6 @@ works:
   medium: Alabaster, Wood, Wax, Acrylic
   dimensions: 12” X 14” X 30”
   image: images/c10/4Wsculpture98.jpg
+  image_width: 357
+  image_height: 570
 ---

@@ -80,6 +80,8 @@ works:
   medium: Acrylic, Oil, and Enamel on Canvas, Tyvek, Wood, and Plexiglass
   dimensions: 53’ X 16'
   image: images/c1/VS01.jpg
+  image_width: 800
+  image_height: 313
 - thumbnail: images/c1/VS02T.jpg
   thumb_width: 148
   thumb_height: 107
@@ -87,6 +89,8 @@ works:
   year: 2006
   medium: Extruded Polystyrene, Celluclay, Latex, Acrylic, Canvas, Live Video Projection
   image: images/c1/VS02.jpg
+  image_width: 800
+  image_height: 581
 - thumbnail: images/c1/VS03T.jpg
   thumb_width: 67
   thumb_height: 90
@@ -96,6 +100,8 @@ works:
     Installation'
   dimensions: 5’ X 4’ x 2’
   image: images/c1/VS03.jpg
+  image_width: 427
+  image_height: 570
 - thumbnail: images/c1/VS04T.jpg
   thumb_width: 148
   thumb_height: 111
@@ -103,6 +109,8 @@ works:
   year: 2006
   medium: (Detail, sculpture with projection)
   image: images/c1/VS04.jpg
+  image_width: 800
+  image_height: 600
 - thumbnail: images/c1/VS05T.jpg
   thumb_width: 148
   thumb_height: 111
@@ -110,6 +118,8 @@ works:
   year: 2006
   medium: 'Foreground (detail), Background: Virtually Sublime (detail)'
   image: images/c1/VS05.jpg
+  image_width: 800
+  image_height: 600
 - thumbnail: images/c1/VS06T.jpg
   thumb_width: 148
   thumb_height: 116
@@ -118,28 +128,38 @@ works:
   medium: (Detail Acrylic on Canvas)
   dimensions: 22” X 28”
   image: images/c1/VS06.jpg
+  image_width: 800
+  image_height: 628
 - thumbnail: images/c1/VS07T.jpg
   thumb_width: 66
   thumb_height: 90
   title: Virtually Sublime
   medium: (Detail, Left Profile)
   image: images/c1/VS07.jpg
+  image_width: 420
+  image_height: 570
 - thumbnail: images/c1/VS08T.jpg
   thumb_width: 67
   thumb_height: 90
   title: Virtually Sublime
   medium: (Detail, Right Profile)
   image: images/c1/VS08.jpg
+  image_width: 427
+  image_height: 570
 - thumbnail: images/c1/VS09T.jpg
   thumb_width: 67
   thumb_height: 90
   title: Virtually Sublime
   medium: (Detail)
   image: images/c1/VS09.jpg
+  image_width: 427
+  image_height: 570
 - thumbnail: images/c1/VS10T.jpg
   thumb_width: 67
   thumb_height: 90
   title: Virtually Sublime
   medium: (Detail)
   image: images/c1/VS10.jpg
+  image_width: 427
+  image_height: 570
 ---

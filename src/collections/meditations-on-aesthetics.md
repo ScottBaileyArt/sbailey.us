@@ -253,6 +253,8 @@ works:
   medium: Oil & Acrylic on Plywood
   dimensions: 12” X 12”
   image: images/c6/1WBird.jpg
+  image_width: 572
+  image_height: 570
 - thumbnail: images/c6/D2Wmeditation24.jpg
   thumb_width: 90
   thumb_height: 90
@@ -261,6 +263,8 @@ works:
   medium: Oil & Acrylic on Plywood
   dimensions: 12” X 12”
   image: images/c6/2Wmeditation24.jpg
+  image_width: 570
+  image_height: 570
 - thumbnail: images/c6/D3Wmeditation08.jpg
   thumb_width: 90
   thumb_height: 90
@@ -269,6 +273,8 @@ works:
   medium: Oil & Acrylic on Plywood
   dimensions: 12” X 12”
   image: images/c6/3Wmeditation08.jpg
+  image_width: 570
+  image_height: 570
 - thumbnail: images/c6/D4Wmeditation13.jpg
   thumb_width: 91
   thumb_height: 90
@@ -277,6 +283,8 @@ works:
   medium: Oil & Acrylic on Plywood
   dimensions: 12” X 12”
   image: images/c6/4Wmeditation13.jpg
+  image_width: 578
+  image_height: 570
 - thumbnail: images/c6/D5Wmeditation09.jpg
   thumb_width: 90
   thumb_height: 90
@@ -285,6 +293,8 @@ works:
   medium: Oil & Acrylic on Plywood
   dimensions: 12” X 12”
   image: images/c6/5Wmeditation09.jpg
+  image_width: 571
+  image_height: 570
 - thumbnail: images/c6/D6Wmeditation16.jpg
   thumb_width: 90
   thumb_height: 90
@@ -293,6 +303,8 @@ works:
   medium: Oil & Acrylic on Plywood
   dimensions: 12” X 12”
   image: images/c6/6Wmeditation16.jpg
+  image_width: 569
+  image_height: 570
 - thumbnail: images/c6/D7Wmeditation12.jpg
   thumb_width: 90
   thumb_height: 90
@@ -301,6 +313,8 @@ works:
   medium: Oil & Acrylic on Plywood
   dimensions: 12” X 12”
   image: images/c6/7Wmeditation12.jpg
+  image_width: 573
+  image_height: 570
 - thumbnail: images/c6/D8Wmeditation17.jpg
   thumb_width: 90
   thumb_height: 90
@@ -309,6 +323,8 @@ works:
   medium: Oil & Acrylic on Plywood
   dimensions: 12” X 12”
   image: images/c6/8Wmeditation17.jpg
+  image_width: 573
+  image_height: 570
 - thumbnail: images/c6/D9Wmeditation22.jpg
   thumb_width: 90
   thumb_height: 90
@@ -317,6 +333,8 @@ works:
   medium: Oil & Acrylic on Plywood
   dimensions: 12” X 12”
   image: images/c6/9Wmeditation22.jpg
+  image_width: 573
+  image_height: 570
 - thumbnail: images/c6/D10Wmeditation23.jpg
   thumb_width: 91
   thumb_height: 90
@@ -325,6 +343,8 @@ works:
   medium: Oil on Plywood
   dimensions: 12” X 12”
   image: images/c6/10Wmeditation23.jpg
+  image_width: 578
+  image_height: 570
 - thumbnail: images/c6/D11Wmeditation15.jpg
   thumb_width: 91
   thumb_height: 90
@@ -333,6 +353,8 @@ works:
   medium: Oil on Plywood
   dimensions: 12” X 12”
   image: images/c6/11Wmeditation15.jpg
+  image_width: 576
+  image_height: 570
 - thumbnail: images/c6/D12WTownhouse3.jpg
   thumb_width: 147
   thumb_height: 83
@@ -340,6 +362,8 @@ works:
   year: 2000
   venue: Townhouse Gallery, Cairo May
   image: images/c6/12WTownhouse3.jpg
+  image_width: 800
+  image_height: 451
 - thumbnail: images/c6/D13WTownhouse00-1.jpg
   thumb_width: 144
   thumb_height: 90
@@ -347,4 +371,6 @@ works:
   year: 2000
   venue: Townhouse Gallery, Cairo May
   image: images/c6/13WTownhouse00-1.jpg
+  image_width: 800
+  image_height: 499
 ---

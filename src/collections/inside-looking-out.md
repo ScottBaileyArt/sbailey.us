@@ -17,6 +17,8 @@ works:
   medium: Acrylic on Vinyl, Mounted on Board
   dimensions: 12” x 12”
   image: images/c5/1WPretoria1.jpg
+  image_width: 571
+  image_height: 570
 - thumbnail: images/c5/D2WPretoria3.jpg
   thumb_width: 91
   thumb_height: 90
@@ -25,6 +27,8 @@ works:
   medium: Acrylic on Vinyl, Mounted on Board
   dimensions: 12” x 12”
   image: images/c5/2WPretoria3.jpg
+  image_width: 574
+  image_height: 570
 - thumbnail: images/c5/D3WPretoria2.jpg
   thumb_width: 90
   thumb_height: 90
@@ -33,6 +37,8 @@ works:
   medium: Acrylic on Vinyl, Mounted on Board
   dimensions: 12” x 12”
   image: images/c5/3WPretoria2.jpg
+  image_width: 568
+  image_height: 570
 - thumbnail: images/c5/D4WPretoria4.jpg
   thumb_width: 90
   thumb_height: 90
@@ -41,6 +47,8 @@ works:
   medium: Acrylic on Vinyl, Mounted on Board
   dimensions: 12” x 12”
   image: images/c5/4WPretoria4.jpg
+  image_width: 572
+  image_height: 570
 - thumbnail: images/c5/D5WBaileyGlass.jpg
   thumb_width: 90
   thumb_height: 90
@@ -49,6 +57,8 @@ works:
   medium: Oil on Plywood cm
   dimensions: 30 x 30
   image: images/c5/5WBaileyGlass.jpg
+  image_width: 571
+  image_height: 570
 - thumbnail: images/c5/D6WNeoSublime1.jpg
   thumb_width: 58
   thumb_height: 90
@@ -56,6 +66,8 @@ works:
   year: 2001
   dimensions: 32” x 46”
   image: images/c5/6WNeoSublime1.jpg
+  image_width: 367
+  image_height: 570
 - thumbnail: images/c5/D7WNeoSublime2.jpg
   thumb_width: 58
   thumb_height: 89
@@ -63,6 +75,8 @@ works:
   year: 2001
   dimensions: 32” x 46”
   image: images/c5/7WNeoSublime2.jpg
+  image_width: 370
+  image_height: 570
 - thumbnail: images/c5/D8WNeoSublime3.jpg
   thumb_width: 58
   thumb_height: 90
@@ -70,4 +84,6 @@ works:
   year: 2001
   dimensions: 32” x 46”
   image: images/c5/8WNeoSublime3.jpg
+  image_width: 369
+  image_height: 570
 ---

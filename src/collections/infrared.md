@@ -39,16 +39,22 @@ works:
   thumb_height: 100
   title: 'Infrared Installation View: Eastern Washington University Gallery of Art'
   image: images/C0/01InfraredSSE.jpg
+  image_width: 800
+  image_height: 535
 - thumbnail: images/C0/02InfraredWsm.jpg
   thumb_width: 150
   thumb_height: 100
   title: 'Infrared Installation View: Eastern Washington University Gallery of Art'
   image: images/C0/02InfraredW.jpg
+  image_width: 800
+  image_height: 535
 - thumbnail: images/C0/03InfraredSEsm.jpg
   thumb_width: 150
   thumb_height: 100
   title: 'Infrared Installation View: Eastern Washington University Gallery of Art'
   image: images/C0/03InfraredSE.jpg
+  image_width: 800
+  image_height: 535
 - thumbnail: images/C0/04Infrared2sm.jpg
   thumb_width: 150
   thumb_height: 83
@@ -57,6 +63,8 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
   image: images/C0/04Infrared2.jpg
+  image_width: 800
+  image_height: 443
 - thumbnail: images/C0/05Infrared5sm.jpg
   thumb_width: 150
   thumb_height: 82
@@ -65,6 +73,8 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
   image: images/C0/05Infrared5.jpg
+  image_width: 800
+  image_height: 439
 - thumbnail: images/C0/06Infrared3sm.jpg
   thumb_width: 150
   thumb_height: 83
@@ -73,6 +83,8 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
   image: images/C0/06Infrared3.jpg
+  image_width: 800
+  image_height: 440
 - thumbnail: images/C0/07Infrared4sm.jpg
   thumb_width: 150
   thumb_height: 82
@@ -81,6 +93,8 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
   image: images/C0/07Infrared4.jpg
+  image_width: 800
+  image_height: 439
 - thumbnail: images/C0/08Infrared7sm.jpg
   thumb_width: 150
   thumb_height: 82
@@ -89,6 +103,8 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
   image: images/C0/08Infrared7.jpg
+  image_width: 800
+  image_height: 435
 - thumbnail: images/C0/09Infrared6sm.jpg
   thumb_width: 150
   thumb_height: 83
@@ -97,6 +113,8 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
   image: images/C0/09Infrared6.jpg
+  image_width: 800
+  image_height: 442
 - thumbnail: images/C0/10Infrared1sm.jpg
   thumb_width: 150
   thumb_height: 82
@@ -105,6 +123,8 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
   image: images/C0/10Infrared1.jpg
+  image_width: 800
+  image_height: 437
 - thumbnail: images/C0/11Infrared8sm.jpg
   thumb_width: 150
   thumb_height: 82
@@ -113,4 +133,6 @@ works:
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
   image: images/C0/11Infrared8.jpg
+  image_width: 800
+  image_height: 438
 ---
