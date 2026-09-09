@@ -217,3 +217,58 @@ there's no browser automation available in this environment. Worth an actual
 click-through on a few collections (including `/miscellaneous/`, only 4 works,
 and one with genuinely missing medium/year like `/inside-looking-out/`) before
 calling this done.
+
+**Superseded by the image pipeline below:** `image_width`/`image_height` are
+no longer used by `collection.njk` — the pipeline computes real dimensions
+per generated file at build time instead, which by construction can't drift
+from what's actually served. The fields were removed from the 38 artworks the
+pipeline swapped to a different source image (stale otherwise); left in place,
+unused, on the other 130.
+
+---
+
+## Image pipeline (`@11ty/eleventy-img`)
+
+**Only 38 of 168 artworks (23%) have a real higher-resolution source file.**
+Checked by fuzzy-matching filenames within each collection's folder (stripping
+`W`/`Ws`/`WL`/size words) and comparing pixel counts —
+`tools/swap-in-originals.py`. One collection, *Anthropogenic Landscapes*, has
+full coverage (all 15 works); most collections — *Oversight*, *Contemporary
+Landscapes*, *Meditations on Aesthetics*, *Infrared*, *Crimson*, and others —
+have none. The already-shrunk "web" copy is the only file that ever existed
+for most of this site's historical content. This is a hard limit, not
+something the pipeline can work around: it can resize what exists, not
+manufacture detail that was never captured. Every image Scott uploads through
+the CMS from now on won't have this problem.
+
+**Deployed site size: 462MB → 71MB.** `src/images/` (the pipeline's raw input,
+~390MB of full-resolution source files) was being blanket-copied into the
+deployed output via `addPassthroughCopy("src/images")`, even though nothing
+in the rendered HTML links to most of it directly anymore — only
+`images/common/`, `images/collections/`, and one collection-index icon crop
+are ever referenced as `/images/...` now; everything else is served as
+generated `/img/...` output. Narrowed the passthrough to just those three.
+Passthrough copying is unrelated to what the pipeline can *read* — it only
+controls what gets duplicated into the deploy — so this doesn't affect build
+input at all.
+
+**Two real bugs hit while wiring this up, both worth knowing about if this
+code gets touched again:**
+- `require("@11ty/eleventy-img")` is not itself callable in this version
+  (7.0.0) — it's an ESM package; the classic callable API is the `.default`
+  export specifically (`Image = require("@11ty/eleventy-img").default`), not
+  the `Image` *named* export (that's an unrelated lower-level class).
+- Eleventy's Nunjucks shortcodes are registered as Nunjucks *extensions*
+  (custom tags), not plain template globals. They only work with `{% name
+  arg1, arg2 %}` tag syntax — `{{ name(arg1, arg2) }}` function-call syntax
+  fails with "unable to call `name`, which is undefined," which reads like a
+  registration problem but isn't one; it's just the wrong calling convention
+  for this specific kind of shortcode.
+
+**Lightbox images are genuinely responsive, not one fixed size for everyone.**
+`data-pswp-srcset` (read natively by PhotoSwipe) offers 800/1600/2400px
+tiers, clamped to whatever the source actually supports — a viewer's browser
+picks an appropriate size for their screen rather than everyone downloading
+the same file regardless of device. Raised by Aydan mid-implementation;
+correct instinct, the original single-fixed-cap version was undersized in
+ambition, not just detail.

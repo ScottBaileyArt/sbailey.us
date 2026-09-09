@@ -48,9 +48,7 @@ works:
   title: Rainier to Leavenworth Virtual Flyover
   year: 2010
   medium: Animated Digital Rendering of Virtual Terrain
-  image: images/c15/01RainierPD-Ws.jpg
-  image_width: 160
-  image_height: 90
+  image: images/c15/01RainierPD-W.jpg
 - thumbnail: images/c15/02PApocalypseWs.jpg
   thumb_width: 133
   thumb_height: 97
@@ -127,16 +125,12 @@ works:
   title: Manifest Destiny (Robert Graves Gallery Installation View)
   year: 2010
   medium: Painted Green Screen, Computer, Camera, Projector, Lights
-  image: images/c15/09MD-Install-W.jpg
-  image_width: 872
-  image_height: 570
+  image: images/c15/09MD Install.JPG
 - thumbnail: images/c15/10MD-Install-2-Ws.jpg
   thumb_width: 120
   thumb_height: 90
   title: Manifest Destiny (Robert Graves Gallery Installation View)
   year: 2010
   medium: Painted Green Screen, Computer, Camera, Projector, Lights
-  image: images/c15/10MD-Install2-W.jpg
-  image_width: 760
-  image_height: 570
+  image: images/c15/10MD Install 2.JPG
 ---

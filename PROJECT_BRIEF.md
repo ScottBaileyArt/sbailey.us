@@ -125,14 +125,22 @@ prerequisite for everything else.
    caption (title/medium/dimensions/year) built from the same data as the
    on-page caption. `tools/add-image-dimensions.py` added real pixel
    dimensions to all 168 artwork records, which PhotoSwipe needs upfront.
-6. Next up, not yet started: Sveltia CMS (self-service publishing) and the
-   image pipeline (`@11ty/eleventy-img` for automatic resizing + `srcset`).
-   These two belong together — he'll upload 15MB studio photographs through
-   the CMS, and without the pipeline those get served full-size, which is
-   what makes the site unusable on mobile.
-7. Mobile-first CSS rewrite, larger type, keeping his visual character —
+6. ✅ Image pipeline (`@11ty/eleventy-img`). Every artwork thumbnail and
+   lightbox image is now generated at build time — responsive `srcset`
+   (WebP + JPEG fallback), sized to actual display context, decoded from the
+   best source file available rather than a fixed guess. Deployed site size
+   dropped from 462MB to 71MB by no longer shipping full-resolution source
+   files that nothing links to directly. `tools/swap-in-originals.py`
+   upgraded 38 of 168 artworks to a real higher-resolution source found
+   sitting unused next to the "web" copy (only 1 collection, *Anthropogenic
+   Landscapes*, has full high-res coverage — most only ever had the small
+   copy, so the pipeline's zoom-quality benefit is real but partial for
+   *existing* content). Every image Scott uploads through the CMS from now
+   on gets this automatically, which was always the main point.
+7. Next up, not yet started: Sveltia CMS (self-service publishing).
+8. Mobile-first CSS rewrite, larger type, keeping his visual character —
    deferred, no rush per Aydan
-8. WVC's old copies of the site still need to be retired once everyone's
+9. WVC's old copies of the site still need to be retired once everyone's
    comfortable with the cutover.
 
 ---

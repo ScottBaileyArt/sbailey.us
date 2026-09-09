@@ -30,7 +30,7 @@ layout: base.njk
     <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="artworkGallery">
       {% for work in works %}
       <tr>
-        <td width="16%" valign="top" class="DetailLeftTD"><a class="artworkLink" href="{{ ('/' + work.image) | replace(" ", "%20") }}"{% if work.image_width %} data-pswp-width="{{ work.image_width }}"{% endif %}{% if work.image_height %} data-pswp-height="{{ work.image_height }}"{% endif %} data-pswp-caption="{{ workCaption(work) }}"><img src="{{ ('/' + work.thumbnail) | replace(" ", "%20") }}" alt="{{ work.title }}"{% if work.thumb_width %} width="{{ work.thumb_width }}"{% endif %}{% if work.thumb_height %} height="{{ work.thumb_height }}"{% endif %} border="0"></a></td>
+        <td width="16%" valign="top" class="DetailLeftTD"><a class="artworkLink" {% lightboxImageAttrs work.image %} data-pswp-caption="{{ workCaption(work) }}">{% thumbnailImage work.image, work.title %}</a></td>
         <td width="2%" align="left" valign="middle" class="DetailRightTD">&nbsp;</td>
         <td width="82%" align="left" valign="middle" class="style3"><p>{{ workCaption(work) }}</p></td>
       </tr>

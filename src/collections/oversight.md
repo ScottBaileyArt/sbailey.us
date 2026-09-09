@@ -151,9 +151,7 @@ works:
   medium: 'Center: 33º 26’ 53.59”N 44º12’ 41.92”E (Ibrahim ‘Ali) Acrylic and Fabric Dye on
     Carpet'
   dimensions: 15’ X 12’
-  image: images/c12/LP-IR-Install.jpg
-  image_width: 800
-  image_height: 600
+  image: images/c12/LP IR Install.jpg
 - thumbnail: images/c12/2_bailey_drops_installSm.jpg
   thumb_width: 150
   thumb_height: 116

@@ -220,3 +220,8 @@ a.HREFnoDec:hover { COLOR: #171F29 ; text-decoration:underline;  }
 .pswp__button--arrow {
 	top: calc(50% - 52px);
 }
+
+.artworkThumb {
+	border: 0;
+	display: block;
+}

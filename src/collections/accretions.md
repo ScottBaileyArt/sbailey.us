@@ -75,18 +75,14 @@ works:
   title: Detail of Accretion 1,245,132
   year: 2022
   medium: Acrylic and Enamel on Wood Panel
-  image: images/c17/c17 03W Accretion 5 Detail 2.jpg
-  image_width: 864
-  image_height: 806
+  image: images/c17/c17 03 Accretion 5 Detail 2.jpg
 - thumbnail: images/c17/c17 04Ws Accretion 5 XClose 1.jpg
   thumb_width: 216
   thumb_height: 144
   title: Extreme Close-up Detail of Accretion 1,245,132
   year: 2022
   medium: Acrylic and Enamel on Wood Panel
-  image: images/c17/c17 04W Accretion 5 XClose 1.jpg
-  image_width: 1080
-  image_height: 720
+  image: images/c17/c17 04 Accretion 5 XClose 1.jpg
 - thumbnail: images/c17/C17 Accretion 14 Ws.jpg
   thumb_width: 220
   thumb_height: 124
@@ -123,9 +119,7 @@ works:
   year: 2022
   medium: Acrylic and mixed media on wood panel
   dimensions: 64” X 36”
-  image: images/c17/c17 05W Accretion 6.jpg
-  image_width: 1152
-  image_height: 644
+  image: images/c17/c17 05 Accretion 6.jpg
 - thumbnail: images/c17/c17 06Ws Accretion 7.jpg
   thumb_width: 216
   thumb_height: 195
@@ -133,9 +127,7 @@ works:
   year: 2022
   medium: Acrylic and Mixed Media on Wood Panel
   dimensions: 36" X 40"
-  image: images/c17/c17 06W Accretion 7.jpg
-  image_width: 1080
-  image_height: 975
+  image: images/c17/c17 06 Accretion 7.jpg
 - thumbnail: images/c17/c17 07Ws Accretion 8.jpg
   thumb_width: 216
   thumb_height: 195
@@ -143,9 +135,7 @@ works:
   year: 2022
   medium: Acrylic and Mixed Media on Wood Panel
   dimensions: 36" X 40"
-  image: images/c17/c17 07W Accretion 8.jpg
-  image_width: 1080
-  image_height: 974
+  image: images/c17/c17 07 Accretion 8.jpg
 - thumbnail: images/c17/c17 08Ws Accretions 1 2 3 and 4.jpg
   thumb_width: 288
   thumb_height: 115
@@ -153,9 +143,7 @@ works:
   year: 2022
   medium: 'Each: Acrylic and Mixed Media on Wood Panel'
   dimensions: 14" X 18"
-  image: images/c17/c17 08W Accretions 1 2 3 and 4.jpg
-  image_width: 1440
-  image_height: 509
+  image: images/c17/c17 08 Accretions 1 2 3 and 4.jpg
 - thumbnail: images/c17/c17 09Ws Accretions 9 10 11 and 12.jpg
   thumb_width: 288
   thumb_height: 163
@@ -163,16 +151,12 @@ works:
   year: 2022
   medium: 'Each: Acrylic and Mixed Media on Wood Panel'
   dimensions: 36" X 20"
-  image: images/c17/c17 09W Accretions 9 10 11 and 12.jpg
-  image_width: 1368
-  image_height: 772
+  image: images/c17/c17 09 Accretions 9 10 11 and 12.jpg
 - thumbnail: images/c17/c17Ws 10 Accretions 7 8 1 2 3 and 4.jpg
   thumb_width: 288
   thumb_height: 131
   title: Accretions Exhibition View
   year: 2022
   venue: WVC MAC Gallery
-  image: images/c17/c17W 10 Accretions 7 8 1 2 3 and 4.jpg
-  image_width: 1440
-  image_height: 653
+  image: images/c17/c17 10 Accretions 7 8 1 2 3 and 4.jpg
 ---
