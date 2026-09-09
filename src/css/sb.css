@@ -192,15 +192,16 @@ a.HREFnoDec:hover { COLOR: #171F29 ; text-decoration:underline;  }
 	padding-left: 10px;
 }
 
-/* PhotoSwipe lightbox caption bar. Height must match CAPTION_HEIGHT in
-   lightbox.js. pointer-events:none keeps it from stealing clicks meant for
-   the image. */
+/* PhotoSwipe lightbox caption bar. Always 3 text lines (title/medium/year) --
+   at this font-size/line-height/padding that's ~83px, plus one line of
+   buffer for a title that wraps, rounded to 104px. Must match CAPTION_HEIGHT
+   in lightbox.js. pointer-events:none keeps it from stealing image clicks. */
 .pswp__custom-caption {
 	position: absolute;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	min-height: 70px;
+	min-height: 104px;
 	box-sizing: border-box;
 	padding: 12px 16px;
 	background: rgba(0, 0, 0, 0.65);
@@ -214,10 +215,8 @@ a.HREFnoDec:hover { COLOR: #171F29 ; text-decoration:underline;  }
 	font-style: italic;
 }
 
-/* Re-center the image and arrows on the space above the caption bar rather
-   than the full viewport, so they don't look off-center once the bar is
-   accounted for. Half of CAPTION_HEIGHT (70px) minus half the small top
-   padding (16px) below. */
+/* Re-center image/arrows on the space above the caption bar: half of
+   (CAPTION_HEIGHT + EDGE_GAP) minus half of EDGE_GAP, from lightbox.js. */
 .pswp__button--arrow {
-	top: calc(50% - 27px);
+	top: calc(50% - 52px);
 }

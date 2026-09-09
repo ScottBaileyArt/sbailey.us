@@ -1,15 +1,22 @@
 import PhotoSwipeLightbox from "/js/photoswipe/photoswipe-lightbox.esm.min.js";
 
 // CAPTION_HEIGHT must match the reserved space in the .pswp__custom-caption
-// CSS rule (sb.css) -- the padding below tells PhotoSwipe to keep images out
-// of that strip so the caption never overlaps the image itself.
-const CAPTION_HEIGHT = 70;
+// CSS rule (sb.css). EDGE_GAP is the breathing room between the image and
+// the screen edge/caption top -- same value on both, so the image sits with
+// an equal gap above it and above the caption.
+const CAPTION_HEIGHT = 104;
+const EDGE_GAP = 16;
 
 const lightbox = new PhotoSwipeLightbox({
   gallery: ".artworkGallery",
   children: "a.artworkLink",
   pswpModule: () => import("/js/photoswipe/photoswipe.esm.min.js"),
-  paddingFn: () => ({ top: 16, bottom: CAPTION_HEIGHT, left: 16, right: 16 }),
+  paddingFn: () => ({
+    top: EDGE_GAP,
+    bottom: CAPTION_HEIGHT + EDGE_GAP,
+    left: EDGE_GAP,
+    right: EDGE_GAP,
+  }),
 });
 
 // Caption reads data-pswp-caption off the clicked <a> -- see PhotoSwipe's
