@@ -221,6 +221,45 @@ a.HREFnoDec:hover { COLOR: #171F29 ; text-decoration:underline;  }
 	top: calc(50% - 52px);
 }
 
+/* While the lightbox opens, show its background at full darkness straight
+   away rather than fading in, so iPhone Safari fills the strips behind its
+   status bar and tab bar to match -- see lightbox.js. !important is needed to
+   override the inline opacity PhotoSwipe animates. 0.9 must match bgOpacity
+   in lightbox.js. The root rule covers PhotoSwipe's other opening style,
+   used when it can't zoom from a thumbnail, which fades the whole lightbox. */
+.pswp.pswp--opening {
+	opacity: 1 !important;
+}
+.pswp--opening .pswp__bg {
+	opacity: 0.9 !important;
+}
+
+/* Page was pinch-zoomed when the lightbox opened (see lightbox.js, which sets
+   --page-zoom). The controls would be magnified along with the page, so draw
+   them at 1/zoom size, each made zoom-times wider first so it still spans the
+   full width once shrunk. */
+.pswp--page-zoomed .pswp__top-bar,
+.pswp--page-zoomed .pswp__custom-caption {
+	width: calc(100% * var(--page-zoom));
+	transform: scale(calc(1 / var(--page-zoom)));
+}
+.pswp--page-zoomed .pswp__top-bar {
+	transform-origin: 0 0;
+}
+.pswp--page-zoomed .pswp__custom-caption {
+	transform-origin: 0 100%;
+}
+.pswp--page-zoomed .pswp__button--arrow {
+	top: calc(50% - 52px / var(--page-zoom));
+	transform: scale(calc(1 / var(--page-zoom)));
+}
+.pswp--page-zoomed .pswp__button--arrow--prev {
+	transform-origin: 0 50%;
+}
+.pswp--page-zoomed .pswp__button--arrow--next {
+	transform-origin: 100% 50%;
+}
+
 .artworkThumb {
 	border: 0;
 	display: block;
