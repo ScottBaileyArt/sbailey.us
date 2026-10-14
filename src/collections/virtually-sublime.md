@@ -2,6 +2,7 @@
 title: Virtually Sublime
 number: 10
 year: 2006
+timeline_label: "2006"
 legacy_prefix: c10
 statement: Virtually Sublime questions whether it is possible to achieve the painter’s notion
   of the sublime in the landscape through contemporary technology, utilizing satellite imaging
@@ -14,7 +15,7 @@ legacy_statement_page: c1b.htm
 exhibition_statement:
 - Virtually Sublime I remain agnostic whether it is possible today for a painting to hold
   the power of the sublime as was claimed by romantic landscape painters like Caspar David
-  Friedrich, J.M.W. Turner, Albert Bierstadt, and those of the Hudson River School , or professed
+  Friedrich, J.M.W. Turner, Albert Bierstadt, and those of the Hudson River School, or professed
   by more recent abstract artists such as Marc Rothko, Barnett Newman, Yves Klein, and James
   Turrell. I have come even to wonder whether recent generations are capable of experiencing
   what they called the sublime, or whether that emotion is even culturally relevant.
@@ -38,7 +39,7 @@ exhibition_statement:
   colors and formal qualities of the canvasses.
 - This exhibition is my most sincere attempt at connecting with that mysterious spiritual
   power of nature through paint and contemporary technology and through the iconic and powerful
-  image of Mount Rainier . It is my hope that the cinematic scale of this installation and
+  image of Mount Rainier. It is my hope that the cinematic scale of this installation and
   the quintessentially human and loving touch of the brush elicit feelings that can be called
   at least virtually sublime.
 - In the magnets of computers will be stored
@@ -50,13 +51,13 @@ exhibition_statement:
 - Recent computer mapping technology has allowed me to lift my view directly above this gallery
   about 6,000 feet, facing in the direction of the painting, and I fly, as the satellite flies,
   60 miles almost due west across the Cascade Curtain. I have used this technology to remotely
-  study Mount Rainier , an icon of power and timelessness, in extraordinary detail and from
+  study Mount Rainier, an icon of power and timelessness, in extraordinary detail and from
   impossible perspectives. Digital images ironically already abstract and painterly were collected,
   cut, and pasted into a grid, then recreated with quotations of Modernist painting conventions.
   After having been fragmented through the mapping, digital, and painting processes, individually
   composed abstract paintings are hung salon-style on the wall so that they come together
   again to express the mountain on both the micro and macro scales. This piece is at once
-  miniscule in comparison to the real mountain, extremely large by painting standards, and
+  minuscule in comparison to the real mountain, extremely large by painting standards, and
   still not large enough to fit on the wall.
 - Above Rainier, 2006 Extruded Polystyrene, Celluclay, Latex, Acrylic, Canvas, Projection
 - This piece mirrors the process of satellite mapping servers, which take flat digitized overhead

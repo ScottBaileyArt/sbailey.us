@@ -2,6 +2,7 @@
 title: Accretions
 number: 17
 year: 2022
+timeline_label: "2022"
 legacy_prefix: c17
 statement: A series of paintings resulting from the accumulation of literally millions of
   tiny bits of color. Monotonous and ambivalent fields of grey from afar, closer inspection

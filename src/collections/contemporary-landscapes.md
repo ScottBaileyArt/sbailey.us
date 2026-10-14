@@ -34,7 +34,7 @@ exhibition_statement:
   in only to be replaced by the twinge of terror at the blur, flash and blackness at the point
   of impact.
 - If these paintings, at once abstract and literal, are beautiful, I have aimed for a complex
-  and poetic aesthetic­-one where beneath the visceral painted surfaces lie uneasy questions
+  and poetic aesthetic—one where beneath the visceral painted surfaces lie uneasy questions
   about the processes through which they were created and the technology employed in their
   realizations.
 - What once perhaps only gods could see, anybody sees-from a painter intrigued by images at
@@ -76,7 +76,7 @@ exhibition_statement:
   Cascade Mountains where he weeds, shovels snow, and writes. He received a 2004 Artist Trust
   GAP Grant. Blue Begonia Press published his chapbook of poems, A Mouthpiece of Thumbs (2000).
   Recent work has appeared or is forthcoming in Open Spaces, Crab Creek Review, Passages North,
-  and The North American Review .
+  and The North American Review.
 index_location: Washington State, USA, 2005
 index_venue: Moses Lake Museum and Art Center, Moses Lake, WA, 2005
 index_summary: A site-specific exhibition of the Moses Lake landscape, painted remotely from
@@ -136,7 +136,7 @@ works:
 - thumbnail: images/c2/D6WPotholestriptych.jpg
   thumb_width: 147
   thumb_height: 53
-  title: 47º14’45”N 119º18’53”W /47º15’13”N 119º27’29”W/47º01’19”N 119º21’20”W
+  title: 47º14’45”N 119º18’53”W/47º15’13”N 119º27’29”W/47º01’19”N 119º21’20”W
   year: 2005
   medium: Acrylic and Oil on Canvas
   dimensions: 11’ X 4’

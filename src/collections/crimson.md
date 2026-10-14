@@ -2,6 +2,7 @@
 title: Crimson
 number: 7
 year: 2002
+timeline_label: "EGYPT"
 legacy_prefix: c7
 legacy_statement_page: c4b.htm
 exhibition_statement:
@@ -41,7 +42,7 @@ exhibition_statement:
   - like Pollock one of the great American abstract expressionist painters - but Scott's works
   are the messy jagged, raw versions of Newman's precise zip paintings, where pristine fields
   of colour are scored by single vertical lines, but the surface is never breached.)
-- 'The artist has been measurably impacted by his experience of Cairo , especially in his
+- 'The artist has been measurably impacted by his experience of Cairo, especially in his
   awareness of the physical and immediate nature of life - and death. There is a certain explicitness
   in the sight of meat hanging in the open shop-fronts (in comparison to its hermetically
   sealed packaging in Western-style supermarkets), or the carnal rituals of the feast. Scott

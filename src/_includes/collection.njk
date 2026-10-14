@@ -9,39 +9,20 @@ layout: base.njk
 {%- else %}{{ work.medium }}{% if work.dimensions %}, {{ work.dimensions }}{% endif %}<br>
 {%- endif %}{{ work.year }}
 {%- endmacro %}
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="83" valign="top"><div class="collectionNumber">c{{ number }}</div></td>
-    <td width="100%" valign="top"><h1 class="pageTitle">{{ title }}</h1></td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td align="left" class="bioCopy">
-      {%- if statement %}
-      <p class="style3">{{ statement }}</p>
-      {%- endif %}
-      {%- if exhibition_statement %}
-      <p class="style3"><a href="/{{ page.fileSlug }}/statement/">Read Exhibition Statement</a></p>
-      {%- endif %}
-    </td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="artworkGallery">
-      {% for work in works %}
-      <tr>
-        <td width="16%" valign="top" class="DetailLeftTD"><a class="artworkLink" {% lightboxImageAttrs work.image %} data-pswp-caption="{{ workCaption(work) }}">{% thumbnailImage work.image, work.title %}</a></td>
-        <td width="2%" align="left" valign="middle" class="DetailRightTD">&nbsp;</td>
-        <td width="82%" align="left" valign="middle" class="style3"><p>{{ workCaption(work) }}</p></td>
-      </tr>
-      <tr>
-        <td class="DetailLeftTD">&nbsp;</td>
-        <td align="left" valign="middle" class="DetailRightTD">&nbsp;</td>
-        <td align="left" valign="middle" class="style3">&nbsp;</td>
-      </tr>
-      {% endfor %}
-    </table></td>
-  </tr>
-</table>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<h1 class="pageTitle"><span class="pageTitleNumber">c{{ number }}</span>{{ title }}</h1>
+<main class="pageBody">
+  {%- if statement %}
+  <p class="bodyText">{{ statement }}</p>
+  {%- endif %}
+  {%- if exhibition_statement %}
+  <p class="bodyText"><a href="/{{ page.fileSlug }}/statement/">Read Exhibition Statement</a></p>
+  {%- endif %}
+  <ul class="artworkGallery">
+    {%- for work in works %}
+    <li class="artwork">
+      <a class="artworkLink" {% lightboxImageAttrs work.image %} data-pswp-caption="{{ workCaption(work) }}">{% thumbnailImage work.image, work.title %}</a>
+      <p class="artworkCaption">{{ workCaption(work) }}</p>
+    </li>
+    {%- endfor %}
+  </ul>
+</main>

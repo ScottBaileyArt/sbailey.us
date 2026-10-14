@@ -2,6 +2,7 @@
 title: Manifest Destiny
 number: 14
 year: 2010
+timeline_label: "2013"
 legacy_prefix: c15
 statement: Playing creator, explorer, and documenter of virtual landscapes with the use of
   GIS and terrain generating software, new responses to the landscape are generated with forms

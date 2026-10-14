@@ -9,35 +9,9 @@ and is awaiting a decision.
 
 ## bio page
 
-**[changed] Duplicate entry — 1999 Curatorial Practices Seminar**
-Under *Positions, Residencies, Workshops*, this entry appears twice:
-
-> 1999 — Contemporary International Curatorial Practices Seminar
-> American University in Cairo, Cairo, Egypt
-
-One copy sits out of chronological order between the 2009 and 2001 entries;
-the other is correctly placed between 2000 and 1999. The markup around the
-out-of-order copy is broken (a stray empty table row), which suggests a
-copy-paste accident. **Kept one copy.** Restore the second if it was intentional.
-
-**[preserved] "Wenatche, WA"** — missing final "e", under the 2016 Stanley
-Lifetime Achievement Award. Presumably should be "Wenatchee, WA".
-
-**[preserved] "R eport From Cairo"** — stray space, in the 2002 Marilu Knode
-bibliography entry. Presumably "Report From Cairo".
-
-**[preserved] "Pedigogy in Art Education"** — 1992 publication. Presumably
-"Pedagogy".
-
 **[preserved] "Ars Sine Scienctia Nihil"** — 2004 bibliography entry. The Latin
 phrase is normally *"Ars sine scientia nihil est"* — likely "Scienctia" →
 "Scientia".
-
-**[preserved] "2 nd Al Nitaq Art Festival"** — stray space, 2001 group
-exhibition. Presumably "2nd".
-
-**[preserved] "Yasmeen Siddiqui , "** — space before the comma, 2001
-bibliography entry.
 
 **[preserved] Overlapping teaching entries** — *Teaching and Other Academic
 Experience* lists "2003-present: Assistant Professor, Director of Art Program,
@@ -45,10 +19,9 @@ MAC Gallery Director" and separately "2012-present: MAC Gallery Director". The
 gallery director role is named in both. May be deliberate (start dates differ),
 but reads as redundant.
 
-**[changed] Apostrophe in "Bailey's most recent paintings"** — was a corrupted
-character (displayed as a black diamond or question mark in some browsers)
-caused by an encoding mismatch. Replaced with a proper apostrophe. This is a
-display bug fix, not a content change.
+**[preserved] "Cooperstown Art Association, Cooperstown, PA"** — 1998 group
+exhibition. The Cooperstown Art Association is, as far as we know, in
+Cooperstown, New York. Check whether "PA" should be "NY".
 
 ---
 
@@ -148,6 +121,15 @@ Either is a one-line change.
 corresponding node marker in the row above it. Worth confirming the timeline
 still reflects how he wants the collections grouped by year.
 
+**[preserved] c9 artwork title "47º08’01”N 119º216’11”W"** — on
+*Contemporary Landscapes*. Coordinate minutes only run 0–59, so "216" can't
+be right: probably 119º16’11”W or 119º21’11”W. Which was intended?
+
+**[preserved] c5 exhibition statement: "paintings sported coli aged elements"**
+— on *Meditations on Aesthetics*, in the paragraph starting "The hybridity of
+human experience…". "coli aged" is presumably "collaged", and the tense of
+the sentence ("sported") may need another look too.
+
 ---
 
 ## Collections index, contact, and home pages
@@ -175,14 +157,11 @@ card's markup; the collection pages keep the characters as their title.
 surrounding `<p>` tag** — the same kind of broken markup already noted for
 this collection above. Recovered by hand rather than automatically.
 
-**[changed] Collections-index layout wraps into rows of 4** rather than the
-original's single ~2700px-wide scrolling row. Confirmed with Aydan rather than
-changed silently. The VIEW button is not yet pinned to the bottom of each
-card — attempted with a CSS table-cell technique that turned out to be
-unreliable across cards of different heights (visually confirmed not to work),
-reverted rather than left half-working. Real fix is straightforward once the
-layout moves to Grid/Flexbox in the mobile-first CSS pass (roadmap step 5);
-tracked there rather than patched further blind.
+**[changed] Collections-index layout: one full-width box per collection**,
+rather than the original's single ~2700px-wide scrolling row (and the
+interim rows of 4). Per Aydan. Name, location and venue on the left, the
+summary in the middle, VIEW pinned to the bottom right of every box; on
+phones the same, stacked.
 
 **[preserved] Contact's email keeps the original's spam-obfuscated display
 text** — the visible text reads "scott.j.bailey **at** hotmail.com" rather

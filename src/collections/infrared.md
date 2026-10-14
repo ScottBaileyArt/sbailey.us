@@ -2,6 +2,7 @@
 title: Infrared
 number: 11
 year: 2007
+timeline_label: "WASHINGTON"
 legacy_prefix: c11
 statement: All of the paintings in Infrared were inspired by a single NASA Advanced Spaceborne
   Thermal Emission and Reflection Radiometer (ASTER) photo taken of Baghdad on the morning

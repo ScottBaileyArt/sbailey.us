@@ -2,6 +2,7 @@
 title: 自然の魂 (shizen no tamashii)
 number: 2
 year: 1996
+timeline_label: "1996"
 legacy_prefix: c2
 index_location: Fort Collins, CO, 1996
 index_venue: White Gallery, Kagoshima, Japan, 1996

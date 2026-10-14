@@ -2,6 +2,7 @@
 title: Inside Looking Out
 number: 6
 year: 2001
+timeline_label: "2001"
 legacy_prefix: c6
 index_location: Pretoria, S. Africa/Cairo, Egypt, 2001
 index_venue: American University in Cairo, Egypt, 2001

@@ -2,38 +2,28 @@
 layout: base.njk
 title: Collections
 ---
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="83" valign="top"><img src="/images/common/spacer.gif" width="83" height="57"></td>
-    <td width="100%" valign="top"><h1 class="pageTitle">Collections</h1></td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td align="left" valign="top"><table width="100%" border="0" cellspacing="16" cellpadding="0">
-      <tr>
-        {%- for item in collections.timelineCollections %}
-        <td width="220" valign="top" bgcolor="#ECF0F1" class="collectionsPanelTop">
-          <p class="collectionsPanelTop">
-            {%- if item.data.index_icon %}<img src="{{ ('/' + item.data.index_icon) | replace(" ", "%20") }}" alt="" width="16" height="16" border="0">{% endif %}
-            <a href="{{ item.url }}" class="HREFnoDec"><strong>c{{ item.data.number }}</strong></a>
-          </p>
-          <p class="collectionsPanelTop"><strong><a href="{{ item.url }}">{{ item.data.title | upper }}</a></strong>
-            {%- if item.data.index_location %}<br><span class="style3">{{ item.data.index_location }}</span>{% endif %}</p>
-          {%- if item.data.index_venue %}
-          <p class="collectionsPanelTop"><span class="style3">{{ item.data.index_venue }}</span></p>
-          {%- endif %}
-          {%- if item.data.index_summary %}
-          <p class="style3">{{ item.data.index_summary }}</p>
-          {%- endif %}
-          <p class="collectionsPanelTop"><a href="{{ item.url }}" class="HREFnoDec">VIEW</a> <a href="{{ item.url }}"><img src="/images/common/btn_arrow_sm.gif" alt="" width="10" height="10" border="0"></a></p>
-        </td>
-        {%- if loop.index % 4 == 0 %}
-      </tr>
-      <tr>
+<h1 class="pageTitle">Collections</h1>
+<main class="pageBody">
+  {#- One full-width box per collection, newest first. #}
+  <ul class="collectionList">
+    {%- for item in collections.timelineCollections %}
+    <li class="collectionCard">
+      <div class="collectionCardName">
+        <p class="collectionCardNumber">
+          {%- if item.data.index_icon %}<img src="{{ ('/' + item.data.index_icon) | replace(" ", "%20") }}" alt="" width="16" height="16">{% endif %}
+          <a href="{{ item.url }}" class="HREFnoDec"><strong>c{{ item.data.number }}</strong></a>
+        </p>
+        <p><strong><a href="{{ item.url }}">{{ item.data.title | upper }}</a></strong>
+          {%- if item.data.index_location %}<br>{{ item.data.index_location }}{% endif %}</p>
+        {%- if item.data.index_venue %}
+        <p>{{ item.data.index_venue }}</p>
         {%- endif %}
-        {%- endfor %}
-      </tr>
-    </table></td>
-  </tr>
-</table>
-<p>&nbsp;</p>
+      </div>
+      {%- if item.data.index_summary %}
+      <p class="collectionCardSummary">{{ item.data.index_summary }}</p>
+      {%- endif %}
+      <p class="collectionCardView"><a href="{{ item.url }}" class="HREFnoDec">VIEW <img src="/images/common/btn_arrow_sm.gif" alt="" width="10" height="10"></a></p>
+    </li>
+    {%- endfor %}
+  </ul>
+</main>

@@ -43,43 +43,61 @@ module.exports = function (eleventyConfig) {
     api.getFilteredByTag("collections").filter((item) => item.data.exhibition_statement)
   );
 
-  // Artwork thumbnails: responsive <picture>, WebP + JPEG fallback, at the
-  // grid's display size and 2x for retina. src is a repo-relative path like
-  // "images/c17/foo.jpg". Deliberately resizes down from the full-size
-  // `image` field rather than the pre-made `thumbnail` file -- those are
-  // often already tiny (~216px), too small to produce a real 2x/retina
-  // thumbnail from.
+  // Artwork thumbnails: responsive <picture>, WebP + JPEG fallback. Shown
+  // 300px wide on wider screens and the full content width on phones (see
+  // .artworkThumb in sb.css, which `sizes` must match: phones are under
+  // 760px, with a 20px inset each side). Widths cover both at 1x-3x pixel
+  // density; eleventy-img skips any that would upscale past the source. src
+  // is a repo-relative path like "images/c17/foo.jpg". Deliberately resizes
+  // down from the full-size `image` field rather than the pre-made
+  // `thumbnail` file -- those are often already tiny (~216px), too small to
+  // produce a sharp thumbnail from.
   eleventyConfig.addAsyncShortcode("thumbnailImage", async (src, alt) => {
     const metadata = await Image(path.join("src", src), {
-      widths: [220, 440],
+      widths: [300, 600, 800, 1050],
       formats: ["webp", "jpeg"],
       outputDir: "_site/img/",
       urlPath: "/img/",
     });
     return generateHTML(metadata, {
       alt,
-      sizes: "220px",
+      sizes: "(max-width: 759px) calc(100vw - 40px), 300px",
       loading: "lazy",
       decoding: "async",
       class: "artworkThumb",
     });
   });
 
-  // Homepage featured artwork: same idea as thumbnailImage, sized for its
-  // ~1000px display width instead of a grid thumbnail. Not lazy-loaded --
-  // it's the only image on the page and above the fold.
-  eleventyConfig.addAsyncShortcode("heroImage", async (src, alt) => {
+  // Homepage featured artwork, with its caption as the content between the
+  // opening and closing tags:
+  //   {% featuredArtwork "images/c17/foo.jpg", "Title", "/accretions/" %}
+  //     ...caption...
+  //   {% endfeaturedArtwork %}
+  // Shown as wide as the window allows, but never taller than fits on screen
+  // (.homeFeature in sb.css). That needs the image's proportions, which is
+  // why the shortcode writes them out (--feature-ratio) rather than the page
+  // hardcoding them, so changing the image needs nothing else changed.
+  // `sizes` is the full window width, which is never smaller than the image
+  // is shown. Not lazy-loaded -- it's the only image on the page and above
+  // the fold.
+  eleventyConfig.addPairedAsyncShortcode("featuredArtwork", async (caption, src, alt, href) => {
     const metadata = await Image(path.join("src", src), {
-      widths: [1000, 2000],
+      widths: [800, 1200, 1800, 2400],
       formats: ["webp", "jpeg"],
       outputDir: "_site/img/",
       urlPath: "/img/",
     });
-    return generateHTML(metadata, {
+    const { width, height } = metadata.jpeg[metadata.jpeg.length - 1];
+    const picture = generateHTML(metadata, {
       alt,
-      sizes: "(max-width: 1000px) 100vw, 1000px",
+      sizes: "100vw",
       decoding: "async",
+      class: "heroImage",
     });
+    return `<figure class="homeFeature" style="--feature-ratio: ${(width / height).toFixed(4)}">`
+      + `<a href="${href}">${picture}</a>`
+      + `<figcaption class="homeCaption">${caption}</figcaption>`
+      + `</figure>`;
   });
 
   // Lightbox full-size image: real responsive loading, not one fixed size

@@ -2,6 +2,7 @@
 title: 枠を超えて (waku wo koete)
 number: 8
 year: 2004
+timeline_label: "2004"
 legacy_prefix: c8
 index_location: Washington State, USA, 2004
 index_venue: White Gallery, Kagoshima, Japan, 2004

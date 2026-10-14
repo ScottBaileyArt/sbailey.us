@@ -2,6 +2,7 @@
 title: Screens and Sculptural Paintings
 number: 3
 year: 1997
+timeline_label: "COLORADO"
 legacy_prefix: c3
 index_location: Fort Collins, CO, 1997-1998
 index_venue: Hatton Gallery, Colorado State University, Fort Collins, CO 1998

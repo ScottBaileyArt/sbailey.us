@@ -11,7 +11,7 @@ exhibition_statement:
   Another said, "How sickening! How loathsome!" Each had a voice of repugnance to add.
 - Then He spoke, telling them, "Look at the dog's beautiful teeth, how gleaming white they
   are."
-- Since moving to Egypt , I have come to understand with profound consequence that beauty
+- Since moving to Egypt, I have come to understand with profound consequence that beauty
   might be found anywhere, right under my nose, directly beneath my feet, wherever I may be.
   This is a liberating concept for a painter who seeks to define a personal aesthetic from
   the inspiring images he beholds, but whose immediate environment is such a challenging and
@@ -31,7 +31,7 @@ exhibition_statement:
   efforts to grasp their uniquely important qualities and represent them also objectively,
   these paintings are split-second glances expanded into lengthy meditations. The light reflecting
   off of a discarded plastic bag might hold the same kind of visual splendor as the light
-  reflecting off of the rippled surface of the Nile . The more I look, the more I see. The
+  reflecting off of the rippled surface of the Nile. The more I look, the more I see. The
   fine line between ordinary and rare, or exquisite and repulsive, blurs at times to the point
   of imperceptibility.'
 - As the series continued to unfold (there are more than 60 paintings from this inspiration)
@@ -58,14 +58,13 @@ exhibition_statement:
   and visuality. Magritte's pipe is necessarily an abstraction, for no one mistakes it for
   a real smoking implement. The addition of the text banishes any further pretext for realism
   for it flattens the historical illusion of a painting being a "window on the world." Finally,
-  other than the occassional skywriting that advertises colas or movie premiers, how often
+  other than the occasional skywriting that advertises colas or movie premieres, how often
   do we see words in the sky? Not quite advertisement, not quite historical landscape, Magritte
-  reflects on the dizzying multitude of signs that were spawned in contemporary Europe . This
-  emblematic work lays to rest the fight over how a real or traditional painting should be
-  , allowing for the experiments that have characterized the past hundred years of its practice.
-- 'The hybridity of human experience was reflected in avant­-garde works such as "La Trahaison
+  reflects on the dizzying multitude of signs that were spawned in contemporary Europe. This
+  emblematic work lays to rest the fight over how a real or traditional painting should be, allowing for the experiments that have characterized the past hundred years of its practice.
+- 'The hybridity of human experience was reflected in avant-garde works such as "La Trahison
   des images" and the works themselves took on hybrid forms: paintings sported coli aged elements
-  and room-size installations were cobbled together from the bric-a­-brac of life. Yet often
+  and room-size installations were cobbled together from the bric-a-brac of life. Yet often
   the works had great phenomenological strength but little visual attraction. These works
   were borne as acts of rebellion, reflecting the consistent pitch for the new that characterizes
   Twentieth century Western Modernism.'
@@ -74,8 +73,8 @@ exhibition_statement:
   but this time driven by artists outside the white, Western male point of discovery. Feminism,
   civil rights and gay rights all contributed to the deconstruction of the art object and
   the institutions that sustained them. Thus, the hybridity of an artist became as much content
-  for artwork as did the materials put into their objects, and the term "multi­cultural" extended
-  not just to minorities in the West but to be all­-inclusive of artists from around the world,
+  for artwork as did the materials put into their objects, and the term "multicultural" extended
+  not just to minorities in the West but to be all-inclusive of artists from around the world,
   east meeting west.
 - In the late Twentieth century the notion of multi-cultural and hybrid existence has accelerated.
   Affected by the rapid exchange of money, information and populations, new cultural hybrids
@@ -85,7 +84,7 @@ exhibition_statement:
 - As an American living abroad, painter Scott Bailey follows a long line of artists working
   outside of his normative cultural environment. Up until the mid-Twentieth century, the Western
   artist would either ignore the specific circumstances in which they were working and proceed
-  as if they lived in Paris , London or New York ; or they would exoticize their locale through
+  as if they lived in Paris, London or New York; or they would exoticize their locale through
   a series of maneuvers which kept them from truly reflecting non-Western tradition. In the
   global climate in which we live, neither of these two options are viable. Instead, a third
   term must be created.
@@ -133,7 +132,7 @@ exhibition_statement:
   experience. Prior bodies of work are evocative of the dark, misty landscape of the Pacific
   Northwest United States, where the artist grew up, and as exemplified by the work of Mark
   Tobey and Morris Graves. These two artists were greatly influenced by Japanese art, yet
-  Bailey's own meditations on that culture's forms derive from his years living in Japan .
+  Bailey's own meditations on that culture's forms derive from his years living in Japan.
 - The appearance of Op-art surfaces come from the crazy fabric patterns found in cabs, clothing
   and furniture, styles so dated that they seem fresh again in this context. If Op-art was
   a result of the psychedelic youth and drug cultures of the 1960s, then for Cairo it might
@@ -206,7 +205,7 @@ exhibition_statement:
   bear on their surfaces a vocabulary of gesture and tone that reflects the underbelly of
   the places in which he has walked, meditated and painted. Not only that, the paint dripping
   over the sides, into the soft textures and grain of the wood, creates its own images, reiterating
-  the process of discovery again and again. Rome , Cairo , Los Angeles , it doesn't really
+  the process of discovery again and again. Rome, Cairo, Los Angeles, it doesn't really
   matter, for the joy that comes from this insight raises these
 - images to a universal level. We look and create our own streets, OL own puddles, and wipe
   the dust from our own shoes. The paintings explore the link between what appears trivial

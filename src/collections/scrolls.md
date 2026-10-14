@@ -2,6 +2,7 @@
 title: Scrolls
 number: 4
 year: 1998
+timeline_label: "1998"
 legacy_prefix: c4
 index_location: Fort Collins, CO, 1998
 index_venue: Lincoln Center for the Performing Arts Gallery, Fort Collins, 1998, Colorado

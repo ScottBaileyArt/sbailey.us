@@ -2,13 +2,14 @@
 title: Oversight
 number: 12
 year: 2008
+timeline_label: "2009"
 legacy_prefix: c12
 statement: Paintings based on false-color satellite images of Tehran, Iran and Washington,
-  D.C , along with a mini-retrospective of other related work at Lawrimore Project, Seattle.
+  D.C., along with a mini-retrospective of other related work at Lawrimore Project, Seattle.
 index_location: Washington State, USA, 2008
 index_venue: Lawrimore Project, Seattle, WA, 2008
 index_summary: Paintings based on false-color satellite images of Tehran, Iran and Washington,
-  D.C , along with a mini-retrospective of other related work at Lawrimore Project, Seattle
+  D.C., along with a mini-retrospective of other related work at Lawrimore Project, Seattle
 index_icon: images/collections/c12.jpg
 works:
 - thumbnail: images/c12/DC1sm.jpg

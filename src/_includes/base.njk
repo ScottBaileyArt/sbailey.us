@@ -3,81 +3,78 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ title }} &mdash; Scott Bailey</title>
+<title>{{ title }}{% if page.url != "/" %} &mdash; Scott Bailey{% endif %}</title>
 <link href="/css/photoswipe.css" rel="stylesheet">
 <link href="/css/sb.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-/* Carried over from the old pages' inline blocks: these three rules are the
-   only ones sb.css does not already provide. Without the base font rule,
-   unclassed table cells (e.g. the timeline years) fall back to 16px Times. */
+/* Carried over from the old pages' inline blocks: these rules are the only
+   ones sb.css does not already provide. Without the base font rule,
+   unclassed table cells fall back to 16px Times. */
 body, td, th {
-	font-size: 12px;
+	font-size: var(--text-size);
 	font-family: Arial, Helvetica, sans-serif;
 }
 .style3 { color: #8499A0; }
-.whitetext { color: #FFF; }
 </style>
 </head>
 
-<body>
-<table width="120%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td width="59%" align="left" valign="top"><a href="/"><img src="/images/common/subLogo.gif" alt="Scott Bailey" width="320" height="68" border="0"></a></td>
-        <td width="41%" align="right" valign="top" class="topLeftNav"><div align="left">
-          <p>&nbsp;</p>
-          <p><a href="/collections/" class="HREFnoDec">collections</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/bio/" class="HREFnoDec">bio</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/contact/" class="HREFnoDec">contact</a></p>
-        </div></td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr>
-    <td><table width="1444" border="0" cellpadding="0" cellspacing="0">
-      <tr>
-        <td bgcolor="#C9D8DD" class="whitetext">2022</td>
-        <td bgcolor="#C9D8DD" class="whitetext">2016</td>
-        <td bgcolor="#C9D8DD" class="whitetext">&nbsp;</td>
-        <td bgcolor="#C9D8DD" class="whitetext">2013</td>
-        <td bgcolor="#C9D8DD">&nbsp;</td>
-        <td bgcolor="#C9D8DD"><span class="whitetext">2009</span></td>
-        <td valign="bottom" bgcolor="#C9D8DD" class="whitetext">WASHINGTON</td>
-        <td valign="bottom" bgcolor="#C9D8DD"><div align="center"><span class="whitetext"> 2006</span></div></td>
-        <td valign="bottom" bgcolor="#C9D8DD">&nbsp;</td>
-        <td width="80" valign="bottom" bgcolor="#C9D8DD"><span class="whitetext">2004</span></td>
-        <td valign="bottom" bgcolor="#C9D8DD" class="whitetext">EGYPT</td>
-        <td valign="bottom" bgcolor="#C9D8DD"><span class="whitetext">2001</span></td>
-        <td valign="bottom" bgcolor="#C9D8DD">&nbsp;</td>
-        <td valign="bottom" bgcolor="#C9D8DD" class="whitetext">1998</td>
-        <td valign="bottom" bgcolor="#C9D8DD" class="whitetext">COLORADO</td>
-        <td valign="bottom" bgcolor="#C9D8DD"><span class="whitetext">1996</span></td>
-        <td valign="bottom" bgcolor="#C9D8DD" class="whitetext">JAPAN</td>
-        <td width="84" valign="bottom" bgcolor="#C9D8DD"><span class="whitetext">ITALY</span></td>
-      </tr>
-      {# Node markers and labels are generated from the collection data files,
-         newest first. Adding a collection adds it to the timeline automatically
-         rather than needing every page edited by hand. Column widths are the
-         hand-tuned originals; the timeline is rebuilt in the responsive pass. #}
-      {%- set navWidths = [72, 72, 72, 80, 96, 82, 82, 85, 79, 72, 86, 78, 77, 82, 82, 80, 82] %}
-      <tr>
-        {%- for item in collections.timelineCollections %}
-        <td width="{{ navWidths[loop.index0] }}" valign="bottom" bgcolor="#EBF0F1"><a href="{{ item.url }}"><img src="/images/common/subNavNode.gif" alt="" width="60" height="10" border="0" align="middle"></a></td>
-        {%- endfor %}
-        <td valign="bottom" bgcolor="#EBF0F1">&nbsp;</td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr>
-    <td><table border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        {%- for item in collections.timelineCollections %}
-        <td width="{{ navWidths[loop.index0] }}" align="center" valign="top" class="NavCopy"><a href="{{ item.url }}" title="{{ item.data.title }}">c{{ item.data.number }}</a></td>
-        {%- endfor %}
-        <td width="83" align="center" valign="top" class="NavCopy">&nbsp;</td>
-      </tr>
-    </table></td>
-  </tr>
-</table>
+<body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
+<header class="siteHeader">
+  <a class="siteLogo" href="/"><img src="/images/common/logo.png" alt="Scott Bailey" width="222" height="32"></a>
+  <nav class="siteNav" aria-label="Main">
+    <a href="/collections/">collections</a><span aria-hidden="true">|</span><a href="/bio/">bio</a><span aria-hidden="true">|</span><a href="/contact/">contact</a>
+  </nav>
+</header>
+
+{%- if not hideTimeline %}
+{#- The timeline: one column per collection, newest first, generated from the
+    collection data files, so adding a collection adds it here. Each column
+    has an optional label above it (a year or a place) from the collection's
+    timeline_label field. The last column has no collection; it carries the
+    ITALY label, the period before the first collection. On narrow screens
+    the strip scrolls sideways (see sb.css). #}
+<div class="timelineWrap">
+  <nav class="timeline" aria-label="Collections by year">
+    <ol class="timelineTrack">
+      {%- for item in collections.timelineCollections %}
+      <li class="timelineColumn">
+        <span class="timelineLabel"><span>{{ item.data.timeline_label }}</span></span>
+        <a class="timelineLink" href="{{ item.url }}" title="{{ item.data.title }}"
+          {%- if page.url.startsWith(item.url) %} aria-current="page"{% endif %}>
+          <span class="timelineNode"></span>c{{ item.data.number }}
+        </a>
+      </li>
+      {%- endfor %}
+      <li class="timelineColumn timelineColumn--end">
+        <span class="timelineLabel"><span>ITALY</span></span>
+        <span class="timelineNode timelineNode--empty"></span>
+      </li>
+    </ol>
+  </nav>
+</div>
+<script>
+  (() => {
+    const strip = document.querySelector(".timeline");
+    // When the timeline scrolls sideways, start it with the current
+    // collection centred in view, rather than always at the newest.
+    const current = strip.querySelector("[aria-current]");
+    if (current) {
+      const offset = current.getBoundingClientRect().left - strip.getBoundingClientRect().left;
+      strip.scrollLeft += offset - (strip.clientWidth - current.offsetWidth) / 2;
+    }
+    // Show the fade at each edge (sb.css) while there's more to scroll to
+    // that way.
+    const update = () => {
+      strip.parentElement.classList.toggle("hasLess", strip.scrollLeft > 1);
+      strip.parentElement.classList.toggle(
+        "hasMore", strip.scrollLeft + strip.clientWidth < strip.scrollWidth - 1);
+    };
+    strip.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    update();
+  })();
+</script>
+{%- endif %}
 
 {{ content | safe }}
 

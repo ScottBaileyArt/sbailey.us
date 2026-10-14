@@ -1,43 +1,22 @@
 ---
 title: Scott Bailey
+layout: base.njk
+hideTimeline: true
+bodyClass: homePage
 ---
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Scott Bailey</title>
-<link href="/css/home.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td width="59%" align="left" valign="top"><a href="/"><img src="/images/common/subLogo.gif" alt="Scott Bailey" width="320" height="68" border="0"></a></td>
-        <td width="41%" align="right" valign="top" class="topLeftNav"><a href="/collections/" class="HREFnoDec">collections</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/bio/" class="HREFnoDec">bio</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/contact/" class="HREFnoDec">contact</a></td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr>
-    {#- Featured artwork: hardcoded to this year's collection. Update by hand
-        when a new collection goes up -- see accretions.md for the field
-        shapes (image, title, medium, dimensions, year) if this moves to
-        being data-driven later. #}
-    <td align="center"><a href="/accretions/">{% heroImage "images/c17/C17 Accretion 14 WL.jpg", "Accretion 3,871,914" %}</a></td>
-  </tr>
-  <tr>
-    <td align="center" bgcolor="#FFFFFF"><table width="898" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td width="674" align="left" class="NavCopy"><p>Accretion 3,871,914, Acrylic on Wood Panel, 7' X 4', 2023</p></td>
-        <td width="224" align="right" class="NavCopy"><a href="/accretions/" class="HREFnoDec">VIEW </a> <a href="/accretions/"><img src="/images/common/btn_arrow_sm.gif" width="10" height="10" border="0"></a></td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr>
-    <td align="center" bgcolor="#FFFFFF">Scott Bailey Artist Painter Wenatchee Seattle Cairo Japan</td>
-  </tr>
-</table>
-</body>
-</html>
+{#- Featured artwork: hardcoded to this year's collection. Update the image,
+    title, link and caption by hand when a new collection goes up (the
+    caption's three parts: title, medium and dimensions, year) -- see
+    accretions.md for the field shapes (image, title, medium, dimensions,
+    year) if this moves to being data-driven later. #}
+<main>
+  {% featuredArtwork "images/c17/C17 Accretion 14 WL.jpg", "Accretion 3,871,914", "/accretions/" %}
+    <span class="homeCaptionText">
+      <span class="homeCaptionTitle">Accretion 3,871,914</span>
+      <span>Acrylic on Wood Panel, 7' X 4'</span>
+      <span>2023</span>
+    </span>
+    <a href="/accretions/" class="HREFnoDec">VIEW <img src="/images/common/btn_arrow_sm.gif" alt="" width="10" height="10"></a>
+  {% endfeaturedArtwork %}
+  <p class="visuallyHidden">Scott Bailey Artist Painter Wenatchee Seattle Cairo Japan</p>
+</main>

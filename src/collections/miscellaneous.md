@@ -2,6 +2,7 @@
 title: Miscellaneous
 number: 1
 year: 1990
+timeline_label: "JAPAN"
 legacy_prefix: c1
 index_icon: images/collections/c1.jpg
 works:
