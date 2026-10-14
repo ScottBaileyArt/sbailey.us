@@ -35,105 +35,105 @@ index_summary: Paintings inspired by a single NASA Advanced Spaceborne Thermal E
   Reflection Radiometer (ASTER) photo taken of Baghdad on the morning of March 31, 2003.
 index_icon: images/collections/c11.jpg
 works:
-- thumbnail: images/C0/01InfraredSSEsm.jpg
+- thumbnail: images/c0/01InfraredSSEsm.jpg
   thumb_width: 150
   thumb_height: 100
   title: 'Infrared Installation View: Eastern Washington University Gallery of Art'
-  image: images/C0/01InfraredSSE.jpg
+  image: images/c0/01InfraredSSE.jpg
   image_width: 800
   image_height: 535
-- thumbnail: images/C0/02InfraredWsm.jpg
+- thumbnail: images/c0/02InfraredWsm.jpg
   thumb_width: 150
   thumb_height: 100
   title: 'Infrared Installation View: Eastern Washington University Gallery of Art'
-  image: images/C0/02InfraredW.jpg
+  image: images/c0/02InfraredW.jpg
   image_width: 800
   image_height: 535
-- thumbnail: images/C0/03InfraredSEsm.jpg
+- thumbnail: images/c0/03InfraredSEsm.jpg
   thumb_width: 150
   thumb_height: 100
   title: 'Infrared Installation View: Eastern Washington University Gallery of Art'
-  image: images/C0/03InfraredSE.jpg
+  image: images/c0/03InfraredSE.jpg
   image_width: 800
   image_height: 535
-- thumbnail: images/C0/04Infrared2sm.jpg
+- thumbnail: images/c0/04Infrared2sm.jpg
   thumb_width: 150
   thumb_height: 83
   title: 33º 25’ 55.20”N 44º 29’ 48.86”E (Sadr)
   year: 2007
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
-  image: images/C0/04Infrared2.jpg
+  image: images/c0/04Infrared2.jpg
   image_width: 800
   image_height: 443
-- thumbnail: images/C0/05Infrared5sm.jpg
+- thumbnail: images/c0/05Infrared5sm.jpg
   thumb_width: 150
   thumb_height: 82
   title: 33º 27’ 00.30”N 44º 23’ 25.46”E (Hayy Adan)
   year: 2007
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
-  image: images/C0/05Infrared5.jpg
+  image: images/c0/05Infrared5.jpg
   image_width: 800
   image_height: 439
-- thumbnail: images/C0/06Infrared3sm.jpg
+- thumbnail: images/c0/06Infrared3sm.jpg
   thumb_width: 150
   thumb_height: 83
   title: 33º 15’ 042.24”N 44º 29’ 52.54”E (Diyala)
   year: 2007
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
-  image: images/C0/06Infrared3.jpg
+  image: images/c0/06Infrared3.jpg
   image_width: 800
   image_height: 440
-- thumbnail: images/C0/07Infrared4sm.jpg
+- thumbnail: images/c0/07Infrared4sm.jpg
   thumb_width: 150
   thumb_height: 82
   title: 33º 23’ 31.43”N 44º 16’ 11.25”E (Kadhimiya)
   year: 2007
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
-  image: images/C0/07Infrared4.jpg
+  image: images/c0/07Infrared4.jpg
   image_width: 800
   image_height: 439
-- thumbnail: images/C0/08Infrared7sm.jpg
+- thumbnail: images/c0/08Infrared7sm.jpg
   thumb_width: 150
   thumb_height: 82
   title: 33º 24’ 53.37”N 44º 20’ 15.21”E (Haifa)
   year: 2007
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
-  image: images/C0/08Infrared7.jpg
+  image: images/c0/08Infrared7.jpg
   image_width: 800
   image_height: 435
-- thumbnail: images/C0/09Infrared6sm.jpg
+- thumbnail: images/c0/09Infrared6sm.jpg
   thumb_width: 150
   thumb_height: 83
   title: 33º 15’ 49.66”N 44º 25’ 43.03”E (Karada)
   year: 2007
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
-  image: images/C0/09Infrared6.jpg
+  image: images/c0/09Infrared6.jpg
   image_width: 800
   image_height: 442
-- thumbnail: images/C0/10Infrared1sm.jpg
+- thumbnail: images/c0/10Infrared1sm.jpg
   thumb_width: 150
   thumb_height: 82
   title: 33º 16’ 40.09”N 44º 16’ 24.96”E (BIAP/Al Jahid)
   year: 2007
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
-  image: images/C0/10Infrared1.jpg
+  image: images/c0/10Infrared1.jpg
   image_width: 800
   image_height: 437
-- thumbnail: images/C0/11Infrared8sm.jpg
+- thumbnail: images/c0/11Infrared8sm.jpg
   thumb_width: 150
   thumb_height: 82
   title: 33º 13’ 31.56”N 44º 25’ 05.12”E (Al Muradiyah)
   year: 2007
   medium: Acrylic and Oil on Canvas
   dimensions: 48” X 26”
-  image: images/C0/11Infrared8.jpg
+  image: images/c0/11Infrared8.jpg
   image_width: 800
   image_height: 438
 ---
